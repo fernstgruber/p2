@@ -6,6 +6,7 @@ geogenesecode <- read.table("/home/fabs/Data/paper2_lenny/data_paper2/geogenesec
 legende_kartierer_gegen_karte <- read.table("/home/fabs/Data/paper2_lenny/data_paper2/legede_kartierer_gegen_karte_04042017.txt",sep="\t",header=T)
 geounitlegend <- legende_kartierer_gegen_karte[,3:4]
 
+
 geounitdescription <- c("recent and pleistocenic deposits of silt, sand and gravels",
                         "footslope deposits",
                         "limestones and dolomites",
@@ -69,7 +70,7 @@ forstdb_AGM <- forst_geomorph[c("AufID","AGM","geomorphologie_kart")]
 names(forstdb_AGM) <-c("AufID","AGM_forstdb","geomorphologie_kart_forstdb")
 
 #########################################################
-boden <- read.table("/home/fabs/Data/paper2_lenny/data_paper2/Gebiet1_bodenprofile_ohnedoppelte.csv",sep="\t",header=T)
+boden <- read.table("/home/fabs/Data/paper2_lenny/data_paper2/data2017/Gebiet1_bodenprofile_ohnedoppelte_2017.csv",sep="\t",header=T)
 rebopunkte  <-  c("1_U","2_U","3_U","4_U","5_U","6_U","7_U","8_U","9_U","10_U","11_U","12_U","13_U","14_U","15_U","16_U","17_U",
                 "18_U","19_U","20_U","21_U","22_U","23_U","24_U","25_U","26_U","27_U","28_U","29_U","30_U","31_U","32_U","33_U",
                 "34_U","35_U","36_U","37_U","38_U","39_U","40_U","41_U","42_U","43_T","44_T","45_T","46_T","47_T","48_T",
@@ -79,7 +80,7 @@ boden <- merge(x=boden,y=geolegende,by.x="gebiet1_parentmaterial_numerogis",by.y
 boden$Beschreibung <- as.factor(boden$Beschreibung)
 boden <-droplevels(boden)
 str(boden)
-write.table(boden,"profilpunkts_mit_geo_2017.txt",sep=";",row.names=F)
+#write.table(boden,"profilpunkts_mit_geo_2017.txt",sep=";",row.names=F)
 bbundhoehe <- read.table("/home/fabs/Data/paper2_lenny/data_paper2/chemiereferenzpunkte_bbundhoehenstufe.txt",sep=",",header=T)
 bbundhoehe <- bbundhoehe[c("ID","bodenbedeckung","hoehenstufen")]
 boden<- merge(boden,bbundhoehe,by="ID",all.x=T )
@@ -130,19 +131,19 @@ geomorphologieundboden <- merge(geomorphologieundboden,legende_kartierer_gegen_k
 names(geomorphologieundboden) <- c("geomorphologie_beschreibung","geomorphologie_kartiert","ID","geomorphologieklasse_kurz_kartiert",
                                    "GKeng_kartiert","GKEK_kartiert","geomorphologieklasse_kurz_CARG","GKeng_CARG","GKEK_CARG")
 kartierergegenkarte<-  as.data.frame.matrix(table(geomorphologieundboden$GKEK_kartiert,geomorphologieundboden$GKEK_CARG))
-write.table(kartierergegenkarte,file="kartierer_gegen_Karte_2017.txt",sep="\t")
+#write.table(kartierergegenkarte,file="kartierer_gegen_Karte_2017.txt",sep="\t")
 
 xtable(kartierergegenkarte,caption="Tabular comparison of parent material geounits as observed by soil surveyor (rows) and in the geologic map",label="kartiergegenkarte")
 #################################################################################################################                                                          
 #terrain parameters of interest for geological units                                                                             # 
 #################################################################################################################
-#tabelle_bodentypen_red_vs_geomorph <- as.data.frame.matrix(table(boden$geomorphologie_beschreibung,boden$TYP)) #
+tabelle_bodentypen_red_vs_geomorph <- as.data.frame.matrix(table(boden$geomorphologie_beschreibung,boden$TYP)) #
 #write.table(tabelle_bodentypen_red_vs_geomorph,file="tabelle_bodentyp_red_vs_geomorph")                        #
 #                                                                                                               #
-#tabelle_bodentypen_diff_vs_geomorph <- as.matrix(table(boden$geomorphologie_beschreibung,boden$TYP))           #
+tabelle_bodentypen_diff_vs_geomorph <- as.matrix(table(boden$geomorphologie_beschreibung,boden$TYP))           #
 #write.table(tabelle_bodentypen_diff_vs_geomorph,file="tabelle_bodentyp_diff_vs_geomorph")                      #
 #                                                                                                               #
-#tabelle_bodentypen_detailliert <- as.matrix(table(boden$Beschreibung,boden$TYP))                               #
+tabelle_bodentypen_detailliert <- as.matrix(table(boden$Beschreibung,boden$TYP))                               #
 #write.table(tabelle_bodentypen_detailliert,file="tabelle_bodentypen_detailliert",sep=";")                      #
 #                                                                                                               #  
 ####add substrate data and cover layer where available/existent for wlmpoints                                   #

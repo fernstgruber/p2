@@ -41,7 +41,7 @@
 
 \begin{frontmatter}
 
-\title{Analysis of geologic maps to support soil survey - A case study from South Tyrol}
+\title{Joint analysis of parent material and topography to support soil survey - a case study from South Tyrol}
 
 
 %% Group authors per affiliation:
@@ -70,17 +70,15 @@ Geologic maps have always been an important aid in soil survey as parent materia
 \paragraph{overview of literature with regard to the use of geologic maps in classic field soil survey and digital soil mapping in literature}
 \paragraph{literature overview with regard to terrain parameters for characterisation and soil survey}
 \paragraph{overview of intention and aims}
-In a first step we analyse how well the geologic units of the high resolution geologic map correspond to the parent material identified by the soil surveyor. This requires generalisation of the geologic units into categories that can be compared to the parent material units used in the soil (or forestry) surveys. The result is a confusion matrix that shows to which extent geologic units are in accordance with the parent material mapped by the surveyor.  We highlight those units that are often confused or show overlap, and which should consequently be surveyed  
+In a first step we analyse how well the geologic units of the high resolution geologic map correspond to the parent material identified by the soil surveyor, thus evaluating the performance and reliability of geologic maps to support soil survey in South Tyrol. This requires generalisation of the geologic units into categories that can be compared to the parent material units used in the soil (or forestry) surveys. The result is a confusion matrix that shows to which extent geologic units are in accordance with the parent material mapped by the surveyor.  We highlight those units that are often confused or show overlap, and which should consequently be surveyed with greater detail and in consideration of relevant topographic informatino.
 
-Using a data mining approach based on a forward stepwise feature selection with a SVM classifier, we then identify which terrain parameters best separate geologic units and how they can be related to and interpreted with regard to soil formation and the distribution of soil units.
+The next step is to perform a morphometric characterisation of the geological units. Applying a data mining approach based on a forward stepwise feature selection with a SVM classifier, we then identify which terrain parameters best separate geologic units and discuss how they can be related to and interpreted with regard to soil formation and the distribution of soil units.
 
-The connection between the two important soil forming factors, parent material and topography, on the one hand, and soil as the result of theses factors on the other, is then investigated by analysing the occurence and distribution of soils for each geologic unit. A sythesis of this information then leads to a Steckbier that characterises each geologic unit. 
+The connection between the two important soil forming factors, parent material and topography, on the one hand, and soil as the result of theses factors on the other, is then investigated by analysing the diversity and distribution of soils for each geologic unit. This is performed from two points of view: the soil type distribution is done for profile sites per geologic unit, but also per parentmaterial unit as attributed by the soil surveyor. This gives insight into how the surveyors' soil landscape model relates specific parent material units to specific soil types, especially when applying a morphologic-genetic classification such as the Austrian soil classification \citep{Nestroy2011}. The synthesis of this information then leads to a geologic-topographic characterisation (GTC) that describes each geologic unit. 
 
-The aim of this study is to evaluate the performance and applicability of geologic maps to support soil survey in South Tyrol and how to make best use of this information. Hence each geologic unit is characterised with regard to topography and soil and we highlight those units were there es often dissent between soil parent material as mapped by the soil surveyor and the geologic units mapped by geologists.
+The aim of this study is to evaluate how to make best use of available geologic and topographic information for soils survey. Hence each geologic unit is characterised with regard to topography and soil and we highlight those units were there is often dissent between soil parent material as mapped by the soil surveyor and the geologic units mapped by geologists.
 
- We propose that future surveys focus on these units with increased uncertainty with regard to soil parent material. The Steckbriefe shall give the surveyor an overview of which geologic units require special attention due to their diversity regarding topography and soils ...hier steh ich an, der Absatz mit den Zielen muss noch besser werden. Performing such a procedure is advised in advance of new detailed soil surveys to make best use of available information and concentrate the time and money consuming task of field soil survey, involving soil pits and auguring, on units identified as   highly variable and uncertain regarding soils?? 
-
-
+ We propose that future surveys focus increasingly on these units with greater uncertainty with regard to soil parent material to strengthen understanding of the pedologic relevance of these units. By performing a GTC prior to future detailed field soil surveys, the surveyor can make best use of available information and concentrate the time and money consuming task of field work, involving soil pits and auguring, on units identified as highly variable and uncertain regarding soils. This information can be additionally helpful for devising future sampling procedures and also for consideration when attempting to regionalise point information
 
 
 \section{Material and Methods}
@@ -111,13 +109,61 @@ sub-glacial till & SGT & compacted sub-glacial sediment \\
 till in general & TG & undifferentiated glacial sediment \\ 
    \hline
 \end{tabular}
-\caption{Table of the generalised parent material geounits with abbreviations and a short description.} 
+\caption{Table of the generalised parent material geounits with abbreviations and a short description of the Austrian soil type.} 
 \label{geounits}
 \end{table}
-
+\clearpage
 \subsubsection{Soils}
-\subsection{Terrain parameters with emphasis on roughness measures}
+\paragraph{Overview of soils in study area}
+\paragraph{Soil profile data}
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{p{2.5cm}p{3.5cm}p{7.0cm}}
+  \hline
+soil type  & possible WRB group & short description \\ 
+  \hline
+ \raisebox{-1.5ex}{Braunerde} & {Cambisol, Fluvisol, Luvisol, Umbrisol, Regosol} & with brown B-horizon owing to  weathering and re-formation of clay minerals. \\ 
+ 
+{Farb-Substratboden} & {Regosol, Alisol, Ferralsol, Luvisol, Nitisol, Arenosol} & {strong influence of color of parent material, overprinting horizon differentiation.} \\ 
+
+Feinmaterial-Rohboden & {Leptosol, Regosol, Histosol, Arenosol} &{only initial soil formation (Ai horizon) on parent material with less than 40 V.-\% coarse fraction.} \\ 
+
+Grobmaterial-Rohboden & {Leptosol, Regosol, Histosol} & {same as Feinmaterial-Rohboden but with more than 40 V.-\% coarse fraction} \\ 
+
+Haftnässe-Psuedogley & {Stagnosl, Planosol} & {influenced by shallow, capillary stagnation phases.} \\ 
+
+Kalkbraunlehm & {Cambisol, Luvisol} & {with a yellow- to redbrown cohesive B-horizon on calcareous bedrock, often fossil soils.} \\ 
+
+Kalklehm-Rendzina & {Leptosol} & {soils with a loamy organic horizon on calcareous bedrock.} \\ 
+
+\raisebox{-1.5ex}{Kolluvisol} & \raisebox{-1.5ex}{Anthrosol} & {developed from fine soil material relocated by (often human-induced) erosion.} \\ 
+
+Parabraunerde& {Luvisol, Albiluvisol, Cambisol} & {with eluvial horizon over clay-enrichened B-horizon.} \\ 
+
+Pararendzina & {Leptosol, Regosol, Umbrisol, Histosol} & {with organic horizon on carbonatic siliceous bedrock.} \\ 
+
+ \raisebox{-1.5ex}{Ranker} & {Leptosol, Umbrisol, Regosol} & {with organic horizon on siliceous bedrock.} \\ 
+
+Rendzina & {Leptosols, Histosols} & {with organic horizon on calcareous bedrock.} \\ 
+
+ \raisebox{-1.5ex}{Rigolboden} &  \raisebox{-1.5ex}{Anthrosol} & {influenced by deep, homogenizing human cultivation.} \\ 
+
+Semipodsol & {Podzol, Regosol} & {characterized by moderate podzolidation.} \\ 
+
+Textur-Substratboden & {Regosol, Arenosol, Vertisol} & {strong influence of texture of parent material, overprinting horizon differentiation.} \\ 
+   \hline
+\end{tabular}
+\caption{Table relating the Austrian soil types to WRB reference groups along with a simplified description, based on \cite{kilian2015}.} 
+\label{soilunits}
+\end{table}
+\paragraph{•}
+\subsubsection{Digital elevation data}
+\subsection{Methods}
+\subsubsection{Terrain parameters with emphasis on roughness measures}
 \citep{Riley1999}
+\subsubsection{Workflow for indicating most divisive terrain parameters regarding geounits}
+
 \section{Results}
 \subsection{Comparison of soil parent material at soil profile sites with geologic map units}
 \begin{table}[ht]
@@ -149,11 +195,31 @@ AD &   7 &   0 &   0 &   0 &   1 &   0 &   0 &   4 &   0 &   0 &   0 &   0 &   1
 \end{table}
 \subsection{Geomorphometric analysis of geologic map units}
 \subsection{Distribution of soils with regard to geologic units}
+
+
 \section{Discussion}
-\subsection{Differences in what is mapped}
+\subsection{Differences between geologic survey and parent material from profile site descriptions}
+\subsubsection{Differences with regard to mapping purpose}
 Between the two different frameworks of mapping, geology on the one hand and soil on the other, it is important to acknowledge the main focus of attention of each branch of research. There may exist a difference with regard to how pronounced a certain feature or characteristic must be in order to considered for mapping. 
 
-A typical example is..
+A typical example is...
+
+
+\subsubsection{Nomenclatural differences and overlaping classes}
+
+
+\subsection{Pedologic interpretation of terrain parameters that best seperate the geological units}
+
+\subsection{Distribution of soil types with regard to geologic unit as well as parent material unit}
+
+\subsection{Influence of the Alpine environment on interpretability of geologic units as parent material units}
+\subsubsection{High relief areas and multilayering}
+Are there thresholds regarding terrain parameters?
+\subsubsection{thin cover layers of till - an essential new parentmaterial unit?}
+
+\subsubsection{Is the morphodynamic background of deposits a necessary distinctive attribute from a pedological point of view?}
+In the study are, mixed deposits from mass movement and gulleys have the same components as till or hillside debris, which themselves are often the same...
+
 
 \section*{References}
 \bibliography{P2.bib}
