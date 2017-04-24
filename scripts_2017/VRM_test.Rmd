@@ -1,0 +1,22 @@
+---
+title: "VRM test"
+author: "fabian gruber"
+date: "April 24, 2017"
+output: html_document
+---
+
+SAGA vs. GRASS
+
+```{r,include=FALSE}
+source("/media/fabs/Volume/01_PAPERZEUG/fabians_and_rossiters_functions.R")
+comparison <- sqlite_df(dbpath="/media/fabs/Volume/01_PAPERZEUG/paper2_lenny/data_paper2/data2017/sqlite_VRMcomparison/sqlite.db",vector = "twoundredpergeomorph_VRMvergleich")
+names(comparison)
+```
+
+```{r, echo=FALSE}
+par(pty="s")
+plot(x=comparison$EPPAN_vhr_dtm_VRM_r_15cells,y=comparison$VRMGrass_vhr_15cells,xlab = "VRM with SAGA at ws = 15 cells",ylab="VRM with GRASS at ws = 15 cells",asp=1,ylim=c(0,0.6))
+
+plot(x=comparison$EPPAN_vhr_dtm_VRM_r_25cells,y=comparison$VRMGrass_vhr_25cells,xlab = "VRM with SAGA at ws = 25 cells",ylab="VRM with GRASS at ws = 25 cells")
+```
+
