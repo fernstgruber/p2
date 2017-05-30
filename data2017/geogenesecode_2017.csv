@@ -1,0 +1,281 @@
+"NUMEROGIS"	"Genese"	"x1"	"x2"	"Genese-neu"	"ausgangssubstrat"	"Chemie-neu"	"passendste Genese"	"passendste Substratgruppe"	"bessersubstrat"	"bs2"	"chemie_gg_code"	"grund_fuer_substrat"	"grossgruppe"	"Lithologie"	"metamorphie"	"geomorphologie"	"Textur"	"Festgestein"
+190	"Ki"	"XXX"		"Keg"	"Ki"		"Ki"		"x"	1			1	"gemischte Kegel"		"gemischte Kegel"		
+191	"Mo"	"XXX"		"Mo"	"Mo"		"Mo"		"x"	1			2	"Moraene undifferenziert"		"Moraene undifferenziert"		
+192	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Si"	"SiSr"			1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+193	"Ha"	"XXX"		"Ha"	"Ha"		"Ha"		"x"	1			1	"Hangschutt"		"Hangschutt"		
+194	"Sa"	"XXX"		"Keg"	"Ki"		"Ki"		"x"	1			1	"gemischte Kegel"		"gemischte Kegel"		
+195	"Sa"	"XXX"		"Alluv"	"Ki"		"Ki"		"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"	"Sand"	
+197	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Si"	"SiSr"			1		4	"Granodiorite"		"silikatisches Festgestein"		1
+198	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Si"	"SiSr"			1		3	"Rhyodazite"		"silikatisches Festgestein"		1
+200	"Ko"	"XXX"		"Ko"	"Ha"		"Ha"		"x"	1			1	"Kolluvium"		"Kolluvium"		
+360	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Si"	"SiSr"			1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+361	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Si"	"SiSr"			1		3	"Rhyodazite"		"silikatisches Festgestein"		1
+362	"Bl"	"XXX"		"Bl"	"Bl"		"Bl"		"x"	1			1	"Blockschutt"		"Blockschutt"		
+363	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Si"	"SiSr"			1		3	"Rhyodazite"		"silikatisches Festgestein"		1
+364	"Kl"	"KlSi"	"I"	"Sed"	"Kl"	"I"	"Kl"	"KlSi"			1		5	"Pelite, Siltite und Sandsteine"		"silikatisches Sedimentgestein"		1
+365	"lakustrin"	"XXX"		"Alluv"	"Ki"		"To"	"To"	"x"	1			1	"Lakustrine Ablagerung"		"Lakustrine Ablagerung"		
+366	"Ha"	"XXX"		"Keg"	"Ki"		"Ki"		"x"	1			1	"Sturzschuttfächer"		"Sturzschuttfaecher"		
+367	"Anthr"	"XXX"		"Anthr"	"Anthr"		"Anthr"						1	"Anthropogen"		"Anthropogen"		
+368	"Anthr"	"XXX"		"Anthr"	"Anthr"		"Anthr"						1	"Anthropogen"		"Anthropogen"		
+371	"Misch"	"XXX"		"Keg"	"Ki"				"x"	1			1	"gemischte Kegel"		"gemischte Kegel"		
+372	"Ka"	"Do"	"K"	"KaDo"	"KaDo"	"K"	"KaDo"	"Ka"			4		6	"Kalke"		"karbonatisches Festgestein"		1
+374	"Ka"	"Ka+"	"K"	"KaDo"	"KaDo"	"K"	"KaDo"	"Ka+"			4		6	"Kalke"		"karbonatisches Festgestein"		1
+375	"Kl"	"KlSi"	"I"	"Sed"	"Kl"	"M"	"Kl"	"KlM+"			3		6	"Pelite, Siltite und Sandsteine"		"silikatisches Sedimentgestein"		1
+376	"Ka"	"Ka+"	"K"	"KaDo"	"KaDo"	"K"	"KaDo"	"Ka+"			4		6	"Kalke"		"karbonatisches Festgestein"		1
+377	"Do"	"Do"	"K"	"Kl"	"Kl"	"C"	"Kl"	"KlK+"			3		6	"Dolomite"		"karbonatisches Festgestein"		1
+378	"Kl"	"KlM+"	"M"	"Sed"	"Kl"	"C"	"Kl"	"KlK+"			3		6	"Pelite, Siltite und Sandsteine"		"silikatisches Sedimentgestein"		1
+379	"Ka"	"Ka+"	"K"	"KaDo"	"KaDo"	"K"	"KaDo"	"Ka+"			4		6	"Kalke"		"karbonatisches Festgestein"		1
+380	"Ka"	"KA+"	"K"	"KaDo"	"KaDo"	"K"	"KaDo"	"Ka"			4		6	"Kalke"		"karbonatisches Festgestein"		1
+381	"Sa U"			"OrgSub"	"Org"	"O"	"OrgSub"	"Org"			5		1	"Moorablagerung"		"Moorablagerung"	"Sand Silt Torf"	
+382	"U Org"			"OrgSub"	"Org"	"O"	"OrgSub"	"Org"			5		1	"Moorablagerung"		"Moorablagerung"	"Silt Torf"	
+383	"U"			"Alluv"	"Ki"		"Ki"		"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"	"Silt"	
+385	"Sa U"			"Alluv"	"Ki"		"Ki"		"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"	"Sand Silt"	
+386	"To U Org"			"OrgSub"	"Org"	"O"	"OrgSub"	"Org"			5		1	"Moorablagerung"		"Moorablagerung"	"Ton Silt Torf"	
+387	"To Org"			"OrgSub"	"Org"	"O"	"OrgSub"	"Org"			5		1	"Moorablagerung"		"Moorablagerung"	"Ton Torf"	
+388	"Sa U"			"OrgSub"	"Org"	"O"	"OrgSub"	"Org"			5		1	"Moorablagerung"		"Moorablagerung"	"Sand Silt"	
+389	"Org"			"OrgSub"	"Org"	"O"	"OrgSub"	"Org"			5		1	"Moorablagerung"		"Moorablagerung"	"Torn"	
+390	"U"			"OrgSub"	"Org"	"O"	"OrgSub"	"Org"			5		1	"Moorablagerung"		"Moorablagerung"	"Silt"	
+548	"Do"	"Do+"	"K"	"KaDo"	"KaDo"	"K"	"KaDo"	"Ka+"			4		6	"Dolomite"		"karbonatisches Festgestein"		1
+549	"Ca"	"CaSi"	"C"	"Si"	"Si"	"M"	"Si"	"SiSr"			3		49	"Schiefer"	1	"silikatisches Festgestein"		1
+550	"Si"	"SiKa"	"M"	"Si"	"Si"	"S"	"Si"				1		49	"Metabasite"	1	"silikatisches Festgestein"		1
+551	"Si"	"SiIn"	"I"	"Si"	"Si"	"M"	"Si"	"SiKa"			3		50	"Gneise"	1	"silikatisches Festgestein"		1
+552	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Ha"	"HaMi"			1		50	"Gneise"	1	"silikatisches Festgestein"		1
+553	"Si"	"SiIn"	"I"	"Si"	"Si"	"S"	"Ha"	"HaS-"			1		50	"Gneise"	1	"silikatisches Festgestein"		1
+555	"Si"	"SiBa"	"B"	"Si"	"Si"	"M"	"Ha"	"HaMi"			3		50	"Amphibolite"	1	"silikatisches Festgestein"		1
+556	"Ca"	"CaSi"	"C"	"Ca"	"Ca"	"C"	"Ha"	"HaCa"	"x"		3		51	"Marmore"	1	"karbonatisches Festgestein"		1
+557	"Si"	"SiSr"	"S"	"Si"	"Si"	"M"	"Si"	"SiKa"	"m"		3		51	"Schiefer"	1	"silikatisches Festgestein"		1
+559	"Ca"	"CaSi"	"C"	"Sed"	"Si"	"S"	"HaS"	"Ha"	"x"		1		49	"Marmore"	1	"karbonatisches Festgestein"		1
+560	"Si"	"SiX"	"B"	"Si"					"x"				49	"Serpentinite"	1	"silikatisches Festgestein"		1
+561	"Si"	"SiIn"	"I"	"Si"					"x"				51	"Schiefer"	1	"silikatisches Festgestein"		1
+562	"Si"	"SiSr"	"S"	"Si"	"Si"	"M"	"Ha"	"Ha"	"m"		3		50	"Gneise"	1	"silikatisches Festgestein"		1
+563	"Si"	"SiSr"	"S"	"Si"	"Si"	"C"	"Ha"	"HaCa"			3		51	"Schiefer"	1	"silikatisches Festgestein"		1
+564	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"	"Si"		"m"		1		51	"Quarzite"	1	"silikatisches Festgestein"		1
+565	"Si"	"SiBa"	"B"	"Si"	"Si"	"B"			"m"		2		51	"Amphibolite"	1	"silikatisches Festgestein"		1
+566	"Si"	"SiBa"	"B"	"Si"	"Si"	"I"			"x"		1		51	"Amphibolite"	1	"silikatisches Festgestein"		1
+567	"Si"	"SiSr"	"S"	"Si"	"Si"	"I"					1		51	"Gneise"	1	"silikatisches Festgestein"		1
+568	"Org"			"OrgSub"	"Org"						5		1	"Moor rezent"		"Moorablagerung"		1
+569	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"					1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+570	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"					1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+571	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"					1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+572	"Ca"	"CaS-"	"C"	"Sed"	"Si"				"x"			"Welchselfolgen"	51	"Marmore"	1	"karbonatisches Festgestein"		1
+573	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"					1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+574	"Si"	"SiSr"	"S"	"Si"	"Si"	"S"					1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+575	"Do"	"Do"	"K"	"KaDo"	"KaDo"	"K"					4		7	"Dolomite"		"karbonatisches Festgestein"		1
+576	"Mo"			"Mo"	"Mo"				"x"	1			2	"Grundmoraene"		"Grundmoraene"	"Sand Silt"	
+577	"Mo"			"Mo"	"Mo"				"x"	1			2	"Ausschmelzmoraene"		"Ausschmelzmoraene"		
+578	"Kl"	"KlSi"	"I"	"Sed"	"Kl"	"I"					1		3	"Pelite, Siltite und Sandsteine"		"silikatisches Sedimentgestein"		1
+579	"Kl"	"KlSi"	"I"	"Sed"	"Kl"	"I"					1		3	"Pelite, Siltite und Sandsteine"		"silikatisches Sedimentgestein"		1
+580	"To U"			"OrgSub"	"Org"	"O"					5		1	"Moorablagerung"		"Moorablagerung"	"Ton Silt"	
+581	"Mo"			"Mo"	"Mo"				"x"	1			2	"Moraene undifferenziert"		"Moraene undifferenziert"		
+582	"Ki"			"Alluv"	"Ki"				"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"		
+583	"Ki Sa"			"Alluv"	"Ki"				"x"	1			2	"Eisrandsedimente"		"Eisrandsedimente"		
+584	"Si"	"SiX"			"Si"	"B"					2		49	"Metabasite"		"silikatisches Festgestein"		1
+585	"Ki Sa"				"Ki"				"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"	"Kies Sand"	
+602	"Blockgletscher"				"Bl"				"x"	1			1	"Blockgletscher"		"Blockgletscher"		
+603	"Mo"				"Mo"				"x"	1			1	"Moraene undifferenziert"		"Moraene undifferenziert"		
+604	"Misch"				"Ki"				"x"	1			1	"gemischte Kegel"		"gemischte Kegel"		
+605	"Blockgletscher"				"Bl"				"x"	1			1	"Blockgletscher"		"Blockgletscher"		
+606	"Ki"				"Ki"				"x"	1			1	"Alluvialer Schwemmfaecher"		"Alluvialer Schwemmfaecher"		
+607	"To Ki"				"Ki"				"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"	"Ton Kies"	
+608	"Kl"	"SiIn"	"I"		"Kl"	"I"					1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+609	"Si"	"SiIn"	"I"		"Si"	"B"					2		3	"Andesite"		"silikatisches Festgestein"		1
+610	"U To"				"Ki"				"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"	" Silt Ton"	
+611	"Si"	"SiSr"	"S"		"Si"	"S"					1		3	"Vitrophyre"		"silikatisches Festgestein"		1
+613	"Si"	"SiSr"	"S"		"Si"	"S"					1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+614	"Si"	"SiSr"	"S"		"Si"	"S"					1		3	"Rhyolithe"		"silikatisches Festgestein"		1
+615	"Sa To"				"Org"								1	"Moorablagerung"		"Moorablagerung"	"Sand Ton"	
+616	"Do"	"Do"	"D"		"KaDo"	"K"					4		8	"Dolomite"		"karbonatisches Festgestein"		1
+617	"Ki Sa"				"Ki"				"x"				2	"Eisrandsedimente"		"Eisrandsedimente"		
+618	"Si"	"SiIn"	"I"		"Si"	"B"					2		3	"Andesite"		"silikatisches Festgestein"		1
+619	"Kl"	"KlSi"	"I"		"Kl"	"S"					1		5	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+630	"Sa To"				"Ki"				"x"	1			1	"Alluviale Ablagerung"		"Alluviale Ablagerung"	"Sand Ton"	
+631	"Gletscher"				"H2O"								52	"Gletscher"		"Gletscher"		
+632	"See"				"H2O"									"H2O"		"See"		
+640	"Ki"				"Ki"				"x"	1			9	"Alluviale Ablagerung"		"Alluviale Ablagerung"	"Kies Schotter"	
+641	"Kl"	"KlSi"	"I"		"Kl"	"S"	"KlS-"		"x"		1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+642	"Misch"				"Ki"				"x"	1			2	"gemischte Ablagerung"		"gemischte Ablagerung"		
+643	"Sa"				"Ki"				"x"	1			2	"Lakustrine Ablagerung"		"Glaziolakustrine Ablagerung"	"Sand"	
+644	"Si"	"SiIn"	"I"		"Si"	"B"					1		3	"Andesite"		"silikatisches Festgestein"		1
+647	"Si"	"SiIn"	"I"		"Si"				"x"			"nur zwischenlagen"	49	"Schiefer"	1	"silikatisches Festgestein"		1
+650	"Si"	"SiIn"	"I"		"Si"	"S"					1		50	"Gneise"	1	"silikatisches Festgestein"		1
+652	"Si"	"SiX"	"B"		"Si"				"x"			"sind die wiklich an OF?"	49	"Amphibolite"	1	"silikatisches Festgestein"		1
+653	"Ha"				"Ha"				"x"	1			2	"Hangschutt"		"Hangschutt"		
+654	"Kl"	"KlM+"	"M"		"Kl"	"C"		"KlK+"			3		10	"Pelite, Siltite und Sandsteine"		"gemischtes Sedimentgestein"		1
+655	"Kl"	"KlKa"	"C"		"Kl"	"C"		"KlKa"			3		11	"Pelite, Siltite und Sandsteine"		"silikatisches Sedimentgestein"		1
+656	"Kl"	"KlK+"	"C"		"Kl"	"C"		"KlK+"			3		11	"Pelite, Siltite und Sandsteine"		"gemischtes Sedimentgestein"		1
+658	"Si"	"SiBa"	"B"		"Si"	"B"					2		12	"Basalt"		"silikatisches Sedimentgestein"		1
+659	"Do Ka"	"Do+"	"K"	"Kl"	"KaDo"	"C"		"KlK+"			3	"Einschaltungen?"	13	"Kalke"		"karbonatisches Festgestein"		1
+660	"Ki"				"Ki"					1			2	"Eisrandsedimente"		"Eisrandsedimente"		
+663	"Si"	"Sil+"	"I"		"Si"	"I"	"Si"	"SiIn"			1		14	"Quarzphyllit"	1	"silikatisches Festgestein"		1
+664	"Si"	"SiIn"	"I"		"Si"	"I"					1		14	"Hornfels"	1	"gemischtes Sedimentgestein"		1
+665	"Si"	"SiSr"			"Si"	"S"					1		15	"Rhyodazite"		"silikatisches Festgestein"		1
+666	"Si"	"SiSr"			"Si"	"S"					1		16	"Rhyodazite"		"silikatisches Festgestein"		1
+667	"Si"	"SiSr"			"Si"	"S"					1		17	"Rhyodazite"		"silikatisches Festgestein"		1
+668	"Kl"	"KlSi"	"I"		"Kl"	"I"					1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+670	"Si"	"SiSr"	"S"		"Si"	"S"					1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+672	"Si"	"SiIn"	"I"		"Si"	"S"		"SiSr"			1		18	"Granodiorite"		"silikatisches Festgestein"		1
+673	"Si"	"SiX"	"B"	"Si"	"Si"	"S"			"x"		1	"Gaenge"	19	"Ultrabasite"		"silikatisches Festgestein"		1
+674	"Si"	"SiSr"	"S"		"Si"	"S"			"x"		1	"Gaenge"	20	"Rhyodazite"		"silikatisches Festgestein"		1
+676	"Kl"	"KlKa"	"C"		"Kl"	"C"			"x"		3	"Forst tlw ganz anders, auch eigene erfahrung passst dazu"	6	"Pelite, Siltite und Sandsteine"		"gemischtes Sedimentgestein"		1
+680	"Do"	"Do "	"K"	"KaDo"	"KaDo"	"K"					4		21	"Dolomite"		"karbonatisches Festgestein"		1
+681	"Kl"	"KlSi"	"I"		"Kl"	"I"		"KlSi"			1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+682	"Ka"	"Ka"	"K"		"KaDo"	"K"					4		22	"Kalke"		"karbonatisches Festgestein"		1
+683	"Kl"	"KlSi"	"I"		"Kl"	"I"		"KlSi"			1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+684	"Do"	"Ka"	"K"	"KaDo"	"KaDo"	"K"					4		23	"Dolomite"		"karbonatisches Festgestein"		1
+685	"Si"	"SiIn"	"I"		"Si"	"I"		"SiIn"			1		24	"Gneise"	1	"silikatisches Festgestein"		1
+686	"Si"	"SiIn"	"I"		"Si"	"I"		"SiIn"			1		24	"Gneise"	1	"silikatisches Festgestein"		1
+687	"Si"	"SiX"	"B"		"Si"	"B"		"SiBa"			2		24	"Peridotit"		"silikatisches Festgestein"		1
+688	"Si"	"SiIn"	"I"		"Si"	"I"					1		24	"Gneise"	1	"silikatisches Festgestein"		1
+689	"Si"	"SiIn"	"I"		"Si"	"I"					1		24	"Gneise"	1	"silikatisches Festgestein"		1
+690	"Ka"	"Ka"	"K"		"KaDo"	"K"					4		25	"Kalke"		"karbonatisches Festgestein"		1
+691	"Ka"	"KlKa"	"C"		"KaDo"	"C"					3		26	"Pelite, Siltite und Sandsteine"		"gemischtes Sedimentgestein"		1
+692	"Kl"	"KlKa"	"C"		"Kl"	"C"		"KlK+"			3		27	"Pelite, Siltite und Sandsteine"		"gemischtes Sedimentgestein"		1
+696	"Si"	"SiIn"	"I"		"Si"	"S"		"SiSr"			1		18	"Aplite"		"silikatisches Festgestein"		1
+697	"Si"	"SiSr"	"S"		"Si"	"S"		"SiSr"			1		24	"Gneise"	1	"silikatisches Festgestein"		1
+713	"Si"	"SiIn"	"I"		"Si"	"I"			"x"			"Gaenge"	19	"Andesite"		"silikatisches Festgestein"		1
+725	"Si"	"SiIn"	"I"		"Si"	"I"					1		28	"Schiefer"	1	"silikatisches Festgestein"		1
+726	"Si"	"SiIn"	"I"		"Si"	"S"					1		28	"Schiefer"	1	"silikatisches Festgestein"		1
+727	"Si"	"SiBa"	"B"		"Si"	"B"					2		28	"Amphibolite"	1	"silikatisches Festgestein"		1
+728	"Si"	"SiSr"	"S"		"Si"	"I"			"m"		1		29	"Gneise"	1	"silikatisches Festgestein"		1
+734	"Ka"	"CaSi"	"C"		"Si"	"C"					3		28	"Marmore"	1	"karbonatisches Festgestein"		1
+735	"Si"	"SiSr"	"S"		"Si"	"S"					1		28	"Pegmatite"		"silikatisches Festgestein"		1
+736	"Si"	"SiSr"	"S"		"Si"	"S"					1		24	"Gneise"	1	"silikatisches Festgestein"		1
+775	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+776	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+777	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+779	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+781	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+783	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+784	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+785	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+786	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+794	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+795	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+797	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+799	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+802	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+803	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+807	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+809	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+811	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+812	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+813	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+814	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+815	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+816	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+819	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+820	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+823	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+1752	"Sa"				"Ki"				"x"	1			1	"Alluvialer Schwemmfaecher"		"Alluvialer Schwemmfaecher"		
+1753	"Sa U"				"Ki"				"x"	1			1	"Alluvialer Schwemmfaecher"		"Alluvialer Schwemmfaecher"		
+1754	"Ki Sa"				"Ki"				"x"	1			1	"Alluvialer Schwemmfaecher"		"Alluvialer Schwemmfaecher"		
+1793	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+1794	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+1795	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+1796	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+1797	"Kl"	"KlSi"	"I"		"Kl"	"I"					1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+1807	"Ka"				"KaDo"						4		30	"Kalke"		"karbonatisches Festgestein"		1
+1808	"Ka"				"KaDo"						4		31	"Kalkarenite"		"gemischtes Sedimentgestein"		1
+1809	"Ka"				"KaDo"						4		32	"Pelite, Siltite und Sandsteine"		"gemischtes Sedimentgestein"		1
+1810	"Kl"				"KaDo"						4		27	"Kalke"		"karbonatisches Festgestein"		1
+1811	"Ka"	"K+"	"K"		"KaDo"	"K"					4		33	"Kalke"		"karbonatisches Festgestein"		1
+1812	"Ka"	"Ka"	"K"		"KaDo"	"K"			"m"		4		34	"Kalke"		"karbonatisches Festgestein"		1
+1813	"Ka"	"Ka"	"K"		"KaDo"	"K"					4		35	"Kalke"		"karbonatisches Festgestein"		1
+1814	"Do"	"Do"	"K"		"KaDo"	"K"					4		36	"Dolomite"		"karbonatisches Festgestein"		1
+1816	"CaSi"	"CaS-"	"I"		"Si"				"x"				24	"Marmore"		"karbonatisches Festgestein"		1
+1817	"Si"	"SiBa"	"B"		"Si"	"B"					2		24	"Amphibolite"	1	"silikatisches Sedimentgestein"		1
+1818	"Si"	"SiB-"	"B"		"Si"								37	"Tonalite"	1	"silikatisches Sedimentgestein"		1
+1820	"Do"	"Do"	"K"		"KaDo"	"K"			"m"		4	"passt genetisch gar nicht"	38	"Dolomite"		"karbonatisches Festgestein"		1
+1848	"Blockgletscher"				"Bl"				"x"				1	"Blockgletscher"		"Blockgletscher"		
+1849	"Blockgletscher"				"Bl"				"x"				1	"Blockgletscher"		"Blockgletscher"		
+1851	"Ki"				"Ki"				"x"	1			39	"Alluviale Ablagerung"		"Alluviale Ablagerung"		
+1852	"Ki"				"Ki"				"x"	1			40	"Alluviale Ablagerung"		"Alluviale Ablagerung"		
+1853	"Ki"				"Ki"				"x"	1			2	"Fluvoglaziale Ablagerung"		"Alluviale Ablagerung"	"Kies"	
+1854	"Misch"				"Ki"				"x"	1			2	"gemischte Kegel"		"gemischte Kegel"		
+1856	"Kl"				"Kl"				"x"				2	"Aeolische Sedimente"		"Aeolische Sedimente"		
+1857	"Mo"				"Mo"				"x"	1			39	"Moraene undifferenziert"		"Moraene undifferenziert"		
+1858	"lakustrin"				"Ki"				"x"	1			40	"Lakustrine Ablagerung"		"Lakustrine Ablagerung"	"Silt Sand"	
+1859	"U Sa"				"Ki"				"x"	1			2	"Lakustrine Ablagerung"		"Lakustrine Ablagerung"	"Silt Sand"	
+1869	"Si"	"SiSr"	"S"		"Si"	"S"			"x"				12	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+1870	"Kl"	"KlSi"	"I"		"Si"	"I"		"KlSi"			1		3	"Vulkan. Konglomerate und Brekzien"		"silikatisches Sedimentgestein"		1
+1876	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+1878	"Do Ka"	"DO"	"K"		"KaDo"	"K"			"m"		4	"ganz anders?"	41	"Dolomite"		"karbonatisches Festgestein"		1
+1881	"Ki"				"Ki"				"x"	1			1	"Alluvialer Schwemmfaecher"		"Alluvialer Schwemmfaecher"		
+1886	"Kl"	"KlSi"	"I"		"Kl"	"I"		"KlSi"		1	1		42	"gemischte Ablagerung"		"gemischte Ablagerung"		
+1887	"Do Ka"	"Do"	"K"		"KaDo"	"K"					4		11	"Dolomite"		"karbonatisches Festgestein"		1
+1888	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+1889	"Si"	"SiSr"	"S"		"Si"	"I"		"SiIn"			1		24	"Gneise"	1	"silikatisches Sedimentgestein"		1
+1890	"Ki"				"Ki"				"x"	1			2	"Alluviale Ablagerung"		"Alluviale Ablagerung"		
+1891	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2114	"Ki"				"Ki"				"x"	1			2	"Eisrandsedimente"		"Eisrandsedimente"		
+2115	"Si"	"SiSr"	"S"		"Si"	"S"					1		24	"Gneise"	1	"silikatisches Sedimentgestein"		1
+2116	"Misch"				"Kl"				"x"	1			2	"gemischte Ablagerung"		"gemischte Ablagerung"		
+2117	"Ki"				"Kl"				"x"	1			2	"gemischte Kegel"		"gemischte Kegel"		
+2118	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2123	"Blockgletscher"				"Bl"				"x"				1	"Blockgletscher"		"Blockgletscher"		
+2125	"Misch"				"Ki"				"x"	1			9	"gemischte Ablagerung"		"gemischte Ablagerung"		
+2127	"Ki"				"Ki"				"x"	1			2	"Alluviale Ablagerung"		"Alluviale Ablagerung"		
+2129	"Sa"				"Ki"				"x"	1			2	"Fluvoglaziale Ablagerung"		"Fluvoglaziale Ablagerung"		
+2130	"lakustrin"				"Ki"				"x"	1			2	"Lakustrine Ablagerung"		"Lakustrine Ablagerung"		
+2141	"Ka"	"Ka"	"K"		"KaDo"	"M"			"x"			"ist wohl nicht sehr großflaechig"	1	"Kalksinter"		"karbonatisches Festgestein"		1
+2146	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2152	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2173	"Kl"	"KlKa"	"C"		"Kl"	"K"					4		43	"Karbonat. Konglomerate und Brekzien"		"gemischtes Sedimentgestein"		1
+2295	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2313	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2368	"Ka"	"Ka"	"K"		"KaDo"	"K"			"m"		4	"Moraene dabei?"	44	"Kalke"		"karbonatisches Festgestein"		1
+2377	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2530	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2599	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2600	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2601	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2610	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+2619	"Si"	"SiBa"	"B"		"Si"				"x"			"lokale linsen"	51	"Aeklogit"	1	"silikatisches Festgestein"		1
+2749	"Ka"	"Ka+"	"K"		"KaDo"	"I"			"m"			"??"	27	"Pelite, Siltite und Sandsteine"		"gemischtes Sedimentgestein"		1
+2750	"Kl"		"C"		"Kl"						3		45	"Karbonat. Konglomerate und Brekzien"		"gemischtes Sedimentgestein"		1
+2751	"Bl"				"Bl"				"x"	1			2	"Rutschmasse"		"Rutschmasse"		
+2997	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+3001	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+3027	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+3253	"Ka"			"KaDo"	"KaDo"	"K"					4		46	"Dolomite"		"karbonatisches Festgestein"		1
+3255	"Blockgletscher"				"Bl"				"x"				2	"Blockgletscher"		"Blockgletscher"		
+3256	"Mo"				"Mo"				"x"	1			2	"Moraene undifferenziert"		"Moraene undifferenziert"		
+3257	"Ha"				"Ha"				"x"	1			39	"Hangschutt"		"Hangschutt"		
+3375	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+3377	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+3415	"Blockgletscher"				"Bl"				"x"				2	"Blockgletscher"		"Blockgletscher"		
+3491	"Misch"				"Ki"				"x"	1			47	"gemischte Ablagerung"		"gemischte Ablagerung"		
+3492	"Ha"				"Ha"				"x"	1			47	"Hangschutt"		"Hangschutt"		
+3493	"Bl"				"Bl"				"x"	1			47	"Blockschutt"		"Blockschutt"		
+3498	"Mur"				"Kl"				"x"	1			1	"gemischte Ablagerung"		"gemischte Ablagerung"		
+3675	"Si"	"SiX"	"B"		"Si"	"I"			"x"			"wohl kleinraeunig"	49	"Epidot"		"silikatisches Festgestein"		1
+4518	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+4519	"Bl"				"Bl"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+5460	"Si"	"Sr"			"Si"	"I"					1		28	"Gneise"	1	"silikatisches Festgestein"		1
+5471	"Mo"				"Mo"				"x"	1			2	"Ausschmelzmoraene"		"Ausschmelzmoraene"		
+5473	"Mur"				"Ki"				"x"	1			1	"gemischte Ablagerung"		"gemischte Ablagerung"		
+5480	"lakustrin"				"Ki"				"x"	1			2	"Lakustrine Ablagerung"		"Lakustrine Ablagerung"		
+5484	"Blockgletscher"				"Bl"				"x"				2	"Blockgletscher"		"Blockgletscher"		
+5486	"Mo"				"Mo"				"x"	1			48	"Ausschmelzmoraene"		"Ausschmelzmoraene"		
+5488	"Mo"				"Mo"				"x"	1			2	"Ausschmelzmoraene"		"Ausschmelzmoraene"		
+5490	"Anthr"				"Anthr"								1	"Anthropogen"		"Anthropogen"		
+5491	"lakustrin"				"Org"				"x"	1			1	"Lakustrine Ablagerung"		"Lakustrine Ablagerung"		
+5492	"Ha"				"Ha"				"x"	1			1	"Hangschutt"		"Hangschutt"		
+5493	"Ha"				"Ha"				"x"	1			1	"Hangschutt"		"Hangschutt"		
+5494	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+5495	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+5496	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+5497	"Rutsch"				"Ha"				"x"	1			1	"Rutschmasse"		"Rutschmasse"		
+5500	"Ha"				"Ha"				"x"	1			1	"gemischte Kegel"		"gemischte Kegel"		
+5501	"Ha"				"Ha"				"x"	1			1	"gemischte Kegel"		"gemischte Kegel"		
+5502	"Sa"				"Org"	"O"					5		1	"Moorablagerung"		"Moorablagerung"		
+5503	"Do"	"Do"	"K"		"KaDo"	"K"					4		8	"Dolomite"		"karbonatisches Festgestein"		1
+5504	"Sa"				"Ki"				"x"	1			1	"gemischte Kegel"		"gemischte Kegel"		
+5681	"Ki Sa"				"Ki"				"x"	1			2	"Eisrandsedimente"		"Eisrandsedimente"		
+5682	"Mo"				"Mo"				"x"	1			2	"Moraene undifferenziert"		"Moraene undifferenziert"		
+5683	"Mo"				"Mo"				"x"	1			2	"Ausschmelzmoraene"		"Ausschmelzmoraene"		
+5684	"Ha"				"Ha"				"x"	1			2	"Hangschutt"		"Hangschutt"		
+5685	"Ki"				"Ki"				"x"	1			2	"gemischte Ablagerung"		"gemischte Ablagerung"		
+5686	"Ki"				"Ki"				"x"	1			2	"Alluvialer Schwemmfaecher"		"Alluvialer Schwemmfaecher"		
+5687	"Rutsch"				"Ha"				"x"	1			2	"Rutschmasse"		"Rutschmasse"		
+5688	"Misch"				"Ki"				"x"	1			48	"gemischte Ablagerung"		"gemischte Ablagerung"		
