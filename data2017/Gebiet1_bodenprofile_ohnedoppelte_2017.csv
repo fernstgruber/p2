@@ -125,7 +125,7 @@ ID	geomorphologie_beschreibung	Lithologie	geologie_text	BODENTYP_orig	KLASSE	TYP
 12853	Moraene undifferenziert	Moraene undifferenziert		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde			Typischer Moder	191
 12854	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				193
 12857	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				193
-12866	Blockschutt	Blockschutt		Kalkbraunlehm (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent				362
+12866	Blockschutt	Blockschutt		Kalkbraunlehm (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				362
 12867	karbonatisches Festgestein	Dolomite		Braunerde tonig (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				575
 12868	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Mull-Kalklehm-Rendzina				193
 12882	Hangschutt	Hangschutt		Kalkbraunlehm (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				193
@@ -142,7 +142,7 @@ ID	geomorphologie_beschreibung	Lithologie	geologie_text	BODENTYP_orig	KLASSE	TYP
 12911	gemischte Ablagerung	gemischte Ablagerung		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Rohhumusartiger Moder	3491
 12912	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde tonig (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig			Typischer Moder	378
 12913	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Typischer Moder	3492
-12914	gemischte Ablagerung	gemischte Ablagerung		Kalkbraunlehm (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent			Moderartiger (F-)Mull	3491
+12914	gemischte Ablagerung	gemischte Ablagerung		Kalkbraunlehm (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm			Moderartiger (F-)Mull	3491
 12915	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Typischer Moder	372
 12957	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde			Typischer Moder	191
 12958	gemischte Kegel	gemischte Kegel		Braunerde tonig (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig			Typischer Mull	371
@@ -158,7 +158,7 @@ ID	geomorphologie_beschreibung	Lithologie	geologie_text	BODENTYP_orig	KLASSE	TYP
 12988	Grundmoraene	Grundmoraene		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde			Typischer Mull	576
 14101	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				378
 14154	Blockschutt	Blockschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				362
-14175	Blockschutt	Blockschutt		Kalklehme (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent				362
+14175	Blockschutt	Blockschutt		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				362
 14176	karbonatisches Festgestein	Dolomite		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				575
 14177	Moraene undifferenziert	Moraene undifferenziert		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				191
 15401	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				372
@@ -171,7 +171,7 @@ ID	geomorphologie_beschreibung	Lithologie	geologie_text	BODENTYP_orig	KLASSE	TYP
 15452	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
 15453	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				3492
 15475	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
-15476	gemischte Ablagerung	gemischte Ablagerung		Kalklehme (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent				3491
+15476	gemischte Ablagerung	gemischte Ablagerung		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				3491
 15477	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				372
 15580	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde				643
 15581	Alluviale Ablagerung	Alluviale Ablagerung		(Para)Braunerde basenreich leicht	BRAUNERDEN	Braunerde	Typische Braunerde				640
@@ -208,7 +208,7 @@ be01	gemischte Kegel	gemischte Kegel		Braunerde auf bindig-tonigem Material (Pel
 be02	Moraene undifferenziert	Moraene undifferenziert		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				191
 be03	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde				191
 be04	karbonatisches Festgestein	Kalke		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				376
-be05	karbonatisches Festgestein	Kalke		Kalklehme (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent				376
+be05	karbonatisches Festgestein	Kalke		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				376
 f03	Blockschutt	Blockschutt		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				362
 f07	Hangschutt	Hangschutt		Moderrendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				193
 g01	Blockschutt	Blockschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3493
@@ -229,7 +229,7 @@ hd07	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm
 hd08	karbonatisches Festgestein	Dolomite		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				377
 hd09	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				377
 hd10	gemischte Kegel	gemischte Kegel		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				371
-hd12	gemischtes Sedimentgestein	Pelite, Siltite und Sandsteine		Kalklehme (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent				654
+hd12	gemischtes Sedimentgestein	Pelite, Siltite und Sandsteine		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				654
 hd13	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
 hd14	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
 hd15	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
@@ -257,7 +257,7 @@ hg09	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	B
 hh01	gemischte Kegel	gemischte Kegel		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				371
 hh02	karbonatisches Festgestein	Dolomite		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			548
 hh03	karbonatisches Festgestein	Dolomite		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			548
-hh04	Moraene undifferenziert	Moraene undifferenziert		Kalklehme (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent				191
+hh04	Moraene undifferenziert	Moraene undifferenziert		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				191
 hh05	gemischte Kegel	gemischte Kegel		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				371
 hh06	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				548
 hh07	karbonatisches Festgestein	Dolomite		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	carbonathaltig			548
@@ -349,7 +349,7 @@ v02	gemischte Kegel	gemischte Kegel		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN
 v03	gemischte Kegel	gemischte Kegel		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				371
 v04	Hangschutt	Hangschutt		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				193
 v04a	Hangschutt	Hangschutt		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				193
-v05	gemischte Kegel	gemischte Kegel		Kalklehme (rezent)	KALKLEHME	Kalklehme – rezent	Kalklehme – rezent				371
+v05	gemischte Kegel	gemischte Kegel		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				371
 v07	Moraene undifferenziert	Moraene undifferenziert		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				191
 v08	karbonatisches Festgestein	Kalke		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				372
 v09	karbonatisches Festgestein	Kalke		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		372
