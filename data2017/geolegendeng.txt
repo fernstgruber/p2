@@ -1,6 +1,6 @@
 "geounit"	"Abbrev."	"short description"	"geomorphologie_beschreibung"
 "alluvial deposits"	"AD"	"recent and pleistocenic deposits of silt, sand and gravels"	"Alluviale Ablagerung"
-"coarse blocky debris"	"CBD" "recent and pleistocenic blocky deposits"	"Blockschutt"
+"coarse blocky debris"  "CBD" "recent and pleistocenic blocky deposits" "Blockschutt"
 "colluvial deposits"	"CD"	"footslope deposits"	"Kolluvium"
 "calcareous sedimentary rock"	"CSR"	"limestones and dolomites"	"karbonatisches Festgestein"
 "debris cones"	"DC"	"recent conic deposits from debris flows and gulleys"	"gemischte Kegel"
