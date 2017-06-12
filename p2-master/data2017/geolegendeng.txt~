@@ -1,0 +1,21 @@
+"geounit"	"Abbrev."	"short description"	"geomorphologie_deutsch"	"code"
+"alluvial deposits"	"AD"	"Holocene and Pleistocene deposits of silt, sand and gravels"	"Alluviale Ablagerung"	1
+"anthropogene deposits"	"Ant"	"landfills and embankments"	"Anthropogen"	3
+"coarse blocky debris"	"CBD"	"Holocene and Pleistocene blocky deposits"	"Blockschutt"	5
+"colluvial deposits"	"CD"	"footslope deposits"	"Kolluvium"	10
+"calcareous sedimentary rock"	"CSR"	"limestones and dolomites"	"karbonatisches Festgestein"	20
+"debris cones"	"DC"	"Holocene conic deposits from debris flows and gulleys"	"gemischte Kegel"	18
+"glaciolacustrine and lacustrine deposits"	"GLD"	"(fine) sand deposits with dropstones"	"Glaziolakustrine Ablagerung"	7
+"glaciolacustrine and lacustrine deposits"	"GLD"	"(fine) sand deposits with dropstones"	"Lakustrine Ablagerung"	11
+"ice-marginal sediments"	"IMS"	"clast-supported gravels"	"Eisrandsedimente"	6
+"intermediate sedimentary rock"	"ISR"	"silt- and sandstones"	"gemischtes Sedimentgestein"	19
+"landslide deposits"	"LD"	"landslide deposits"	"Rutschmasse"	14
+"lodgement till"	"LT"	"compacted sub-glacial sediment"	"Grundmoraene"	8
+"mire deposits"	"MrD"	"Holocene and Pleistocene silt and peat deposits"	"Moorablagerung"	12
+"mixed deposits"	"MxD"	"Pleistocene deposits from debris flows and gulleys"	"gemischte Ablagerung"	17
+"siliceous bedrock"	"SB"	"rhyolite and rhyodazite tuffs and ignimbrites"	"silikatisches Festgestein"	21
+"slope debris"	"SD"	"Holocene and Pleistocene debris on slopes"	"Hangschutt"	9
+"silicious sedimentary rock"	"SSR"	"sandstones and siltstones"	"silikatisches Sedimentgestein"	22
+"till in general"	"TG"	"undifferentiated glacial sediment"	"Moraene undifferenziert"	13
+"till in general"	"TG"	"undifferentiated glacial sediment"	"Ausschmelzmoraene"	4
+"water bodies"	"WB"	"lakes and rivers"	"See"	15
