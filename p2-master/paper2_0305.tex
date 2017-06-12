@@ -1,0 +1,233 @@
+\documentclass[preprint,12pt,authoryear]{elsarticle}
+%\documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+%\bibliographystyle{elsarticle-harv}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Joint analysis of geological map units and topography to support soil survey - a case study from South Tyrol}
+
+
+%% Group authors per affiliation:
+\author{Fabian E. Gruber\fnref{myfootnote}}
+\author{Jasmin Baruck\fnref{myfootnote}}
+\author{Clemens Geitner\fnref{myfootnote}}
+
+\address{University of Innsbruck}
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{keyword}
+
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+\paragraph{general introduction}
+Geologic maps have always been an important aid in soil survey as parent material is an important factor in soil formation \citep{Jenny1941}. The importance of this relationship is highlighted by the fact that, vice versa, soil maps have themselves been applied to support and improve geologic mapping \citep{Brevik2015}. 
+
+Situation in the Alps
+
+\paragraph{overview of literature with regard to the use of geologic maps in classic field soil survey and digital soil mapping in literature}
+\paragraph{literature overview with regard to terrain parameters for characterisation and soil survey}
+Researchers have long investigated ways to quantify the roughness or ruggedness of terrain, from the analysis of topographic maps to computing roughness indices on raster grids. From the start, habitat modelling and wildlife management were the main research areas in which such investigations were performed on land surfaces. In an early study aimed at quantifying roughness, \cite{Beasom1983} presented the land surface ruggedness index, which is based on the total length of contour lines per area. Similarily analysing topographic maps, \cite{Nellemann1994} describe the calculation of a terrain ruggedness index based on the variability of contour lines along transects, which they correlate with caribou forage availability. Regarding field methods, they calculate microtopographic diversity by analysing the horizontal distance of a chain laid on the ground in their study plots . 
+
+\paragraph{overview of intention and aims}
+In a first step we analyse how well the geologic units of the high resolution geologic map correspond to the parent material identified by the soil surveyor, thus evaluating the performance and reliability of geologic maps to support soil survey in South Tyrol. This requires generalisation of the geologic units into categories that can be compared to the parent material units used in the soil (or forestry) surveys. The result is a confusion matrix that shows to which extent geologic units are in accordance with the parent material mapped by the surveyor.  We highlight those units that are often confused or show overlap, and which should consequently be surveyed with greater detail and in consideration of relevant topographic informatino.
+
+The next step is to perform a morphometric characterisation of the geological units. Applying a data mining approach based on a forward stepwise feature selection with a SVM classifier, we then identify which terrain parameters best separate geologic units and discuss how they can be related to and interpreted with regard to soil formation and the distribution of soil units.
+
+The connection between the two important soil forming factors, parent material and topography, on the one hand, and soil as the result of theses factors on the other, is then investigated by analysing the diversity and distribution of soils for each geologic unit. This is performed from two points of view: the soil type distribution is done for profile sites per geologic unit, but also per parentmaterial unit as attributed by the soil surveyor. This gives insight into how the surveyors' soil landscape model relates specific parent material units to specific soil types, especially when applying a morphologic-genetic classification such as the Austrian soil classification \citep{Nestroy2011}. The synthesis of this information then leads to a geologic-topographic characterisation (GTC) that describes each geologic unit. 
+
+The aim of this study is to evaluate how to make best use of available geologic and topographic information for soils survey. Hence each geologic unit is characterised with regard to topography and soil and we highlight those units were there is often dissent between soil parent material as mapped by the soil surveyor and the geologic units mapped by geologists.
+
+
+
+\section{Material and Methods}
+\subsection{Study area and data}
+\paragraph{Overall description}
+\subsubsection{Geology}
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{p{4.5cm}cp{6cm}r}
+  \hline
+geounit & Abbrev. & short description & \% area \\ 
+  \hline
+ \raisebox{-1.5ex}{alluvial deposits} & \raisebox{-1.5ex}{AD} & recent and pleistocenic deposits of silt, sand and gravels &\raisebox{-1.5ex}{10.6} \\ 
+colluvial deposits & CD & footslope deposits &\raisebox{0ex}{2.8} \\
+calcareous sedimentary rock & \raisebox{-1.5ex}{CSR} & \raisebox{-1.5ex}{limestones and dolomites} &\raisebox{-1.5ex}{7.4} \\  
+\raisebox{-1.5ex}{debris cones} & \raisebox{-1.5ex}{DC} & recent conic deposits from debris flows and gulleys &\raisebox{-1.5ex}{14.2} \\  
+glaciolacustrine deposits & GD & (fine) sand deposits with dropstones &\raisebox{-1.5ex}{2.8} \\  
+ice-marginal sediments & IMS & clast-supported gravels &\raisebox{0ex}{0.3} \\ 
+intermediate sedimentary rock & \raisebox{-1.5ex}{ISR} & \raisebox{-1.5ex}{silt- and sandstones} &\raisebox{-1.5ex}{2.8} \\  
+\raisebox{-1.5ex}{mire deposits} &\raisebox{-1.5ex}{MD} & recent and pleistocenic silt and peat deposits&\raisebox{-1.5ex}{3.9} \\ 
+\raisebox{-1.5ex}{mixed deposits} & \raisebox{-1.5ex}{MD} & pleistocenic deposits from debris flows and gulleys &\raisebox{-1.5ex}{3.2} \\  
+\raisebox{-1.5ex}{siliceous bedrock} & \raisebox{-1.5ex}{SB} & rhyolite and rhyodazite tuffs and ignimbrites &\raisebox{-1.5ex}{7.4} \\  
+\raisebox{-1.5ex}{Scree} & SC & recent and pleistocenic blocky deposits &\raisebox{-1.5ex}{2.1} \\  
+\raisebox{-1.5ex}{slope debris} & \raisebox{-1.5ex}{SD} & recent and pleistocenic debris on slopes&\raisebox{-1.5ex}{11.4} \\  
+sub-glacial till & SGT & compacted sub-glacial sediment &\raisebox{0ex}{18.7} \\  
+\raisebox{-0ex}{silicious sedimentary rock} & \raisebox{-0ex}{SSR} & sandstones and siltstones &\raisebox{0ex}{1.1} \\ 
+till in general & TG & undifferentiated glacial sediment &\raisebox{0ex}{11.3} \\  
+   \hline
+\end{tabular}
+\caption{Table of the generalised parent material geounits with abbreviations and short description. Additionally, the proportion of the study area covered by each geounit is given.} 
+\label{geounits}
+\end{table}
+\clearpage
+\subsubsection{Soils}
+\paragraph{Overview of soils in study area}
+\paragraph{Soil profile data}
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{p{2.5cm}p{3.5cm}p{7.0cm}}
+  \hline
+soil type  & possible WRB group & short description \\ 
+  \hline
+ \raisebox{-1.5ex}{Braunerde} & {Cambisol, Fluvisol, Luvisol, Umbrisol, Regosol} & with brown B-horizon owing to  weathering and re-formation of clay minerals. \\ 
+ 
+{Farb-Substratboden} & {Regosol, Alisol, Ferralsol, Luvisol, Nitisol, Arenosol} & {strong influence of color of parent material, overprinting horizon differentiation.} \\ 
+
+Feinmaterial-Rohboden & {Leptosol, Regosol, Histosol, Arenosol} &{only initial soil formation (Ai horizon) on parent material with less than 40 V.-\% coarse fraction.} \\ 
+
+Grobmaterial-Rohboden & {Leptosol, Regosol, Histosol} & {same as Feinmaterial-Rohboden but with more than 40 V.-\% coarse fraction} \\ 
+
+Haftnässe-Psuedogley & {Stagnosl, Planosol} & {influenced by shallow, capillary stagnation phases.} \\ 
+
+Kalkbraunlehm & {Cambisol, Luvisol} & {with a yellow- to redbrown cohesive B-horizon on calcareous bedrock, often fossil soils.} \\ 
+
+Kalklehm-Rendzina & {Leptosol} & {soils with a loamy organic horizon on calcareous bedrock.} \\ 
+
+\raisebox{-1.5ex}{Kolluvisol} & \raisebox{-1.5ex}{Anthrosol} & {developed from fine soil material relocated by (often human-induced) erosion.} \\ 
+
+Parabraunerde& {Luvisol, Albiluvisol, Cambisol} & {with eluvial horizon over clay-enrichened B-horizon.} \\ 
+
+Pararendzina & {Leptosol, Regosol, Umbrisol, Histosol} & {with organic horizon on carbonatic siliceous bedrock.} \\ 
+
+ \raisebox{-1.5ex}{Ranker} & {Leptosol, Umbrisol, Regosol} & {with organic horizon on siliceous bedrock.} \\ 
+
+Rendzina & {Leptosols, Histosols} & {with organic horizon on calcareous bedrock.} \\ 
+
+ \raisebox{-1.5ex}{Rigolboden} &  \raisebox{-1.5ex}{Anthrosol} & {influenced by deep, homogenizing human cultivation.} \\ 
+
+Semipodsol & {Podzol, Regosol} & {characterized by moderate podzolidation.} \\ 
+
+Textur-Substratboden & {Regosol, Arenosol, Vertisol} & {strong influence of texture of parent material, overprinting horizon differentiation.} \\ 
+   \hline
+\end{tabular}
+\caption{Table relating the Austrian soil types to WRB reference groups along with a simplified description, based on \cite{kilian2015}.} 
+\label{soilunits}
+\end{table}
+\paragraph{•}
+\subsubsection{Digital elevation data}
+\subsection{Methods}
+\subsubsection{Terrain parameters with emphasis on roughness measures}
+\citep{Riley1999}
+\subsubsection{Workflow for indicating most divisive terrain parameters regarding geounits}
+
+\section{Results}
+\subsection{Comparison of soil parent material at soil profile sites with geologic map units}
+\begin{table}[ht]
+\centering
+\tabcolsep=0.10cm
+\begin{tabular}{cccccccccccccccc}
+  \hline
+ & AD & CD & CSR & GD & IMS & ISR & LD & MC & MD & SB & SC & SD & SGT & SSR & TG \\ 
+  \hline
+AD &   7 &   0 &   0 &   0 &   1 &   0 &   0 &   4 &   0 &   0 &   0 &   0 &   1 &   0 &   0 \\ 
+  CD &   0 &   3 &   1 &   0 &   0 &   0 &   0 &   3 &   1 &   1 &   0 &   0 &   0 &   0 &   0 \\ 
+  CSR &   0 &   0 &   2 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   2 &   0 &   0 &   1 \\ 
+  GD &   1 &   0 &   0 &   5 &   0 &   0 &   0 &   0 &   2 &   2 &   0 &   0 &   1 &   0 &   0 \\ 
+  IMS &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 \\ 
+  ISR &   0 &   1 &   7 &   0 &   0 &   0 &   0 &   2 &   0 &   1 &   0 &   4 &   0 &   2 &   3 \\ 
+  LD &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 \\ 
+  MC &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   5 &   0 &   0 &   0 &   1 &   0 &   0 &   0 \\ 
+  MD &   0 &   0 &   1 &   0 &   0 &   0 &   0 &   0 &   0 &   2 &   0 &   0 &   3 &   1 &   3 \\ 
+  SB &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &  14 &   0 &   4 &   0 &   0 &   0 \\ 
+  SC &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   1 &   4 &   3 &   0 &   0 &   0 \\ 
+  SD &   1 &   1 &  13 &   0 &   0 &   3 &   0 &  20 &   6 &   3 &   8 &  55 &   1 &   3 &   8 \\ 
+  SGT &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 \\ 
+  SSR &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   0 &   1 &   0 &   0 &   0 &   3 &   0 \\ 
+  TG &   3 &   0 &  12 &   2 &   0 &   0 &   0 &   2 &   2 &  24 &   2 &  15 &  40 &   1 &  48 \\ 
+   \hline
+\end{tabular}
+\caption{Tabular comparison of parent material geounits as observed by soil surveyor (rows) and in the geologic map (columns).} 
+\label{kartiergegenkarte}
+\end{table}
+\subsection{Geomorphometric analysis of geologic map units}
+\subsection{Distribution of soils with regard to geologic units}
+
+
+\section{Discussion}
+\subsection{Differences between geologic survey and parent material from profile site descriptions}
+\subsubsection{Differences with regard to mapping purpose}
+Between the two different frameworks of mapping, geology on the one hand and soil on the other, it is important to acknowledge the main focus of attention of each branch of research. There may exist a difference with regard to how pronounced a certain feature or characteristic must be in order to considered for mapping. 
+
+A typical example is...
+
+
+\subsubsection{Nomenclatural differences and overlaping classes}
+
+
+\subsection{Pedologic interpretation of terrain parameters that best seperate the geological units}
+
+\subsection{Distribution of soil types with regard to geologic unit as well as parent material unit}
+
+\subsection{Influence of the Alpine environment on interpretability of geologic units as parent material units}
+\subsubsection{High relief areas and multilayering}
+Are there thresholds regarding terrain parameters?
+\subsubsection{thin cover layers of till - an essential new parentmaterial unit?}
+
+\subsubsection{Is the morphodynamic background of deposits a necessary distinctive attribute from a pedological point of view?}
+In the study are, mixed deposits from mass movement and gulleys have the same components as till or hillside debris, which themselves are often the same...
+
+\section{Conclusion}
+We propose that future surveys focus increasingly on these units with greater uncertainty with regard to soil parent material to strengthen understanding of the pedologic relevance of these units. By performing a GTC prior to future detailed field soil surveys, the surveyor can make best use of available information and concentrate the time and money consuming task of field work, involving soil pits and auguring, on units identified as highly variable and uncertain regarding soils. This information can be additionally helpful for devising future sampling procedures and also for consideration when attempting to regionalise point information
+
+\section*{References}
+\bibliography{P2.bib}
+
+\end{document}

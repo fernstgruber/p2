@@ -1,0 +1,60 @@
+Nr	Seehoehe	Relief	code_mak	Exposition	Inklination	Substrat	Substrat2	Relief2	Substrat3	geomorphologie_kart_thalheimer_alt	geomorphologie_kart_thalheimer	AGM_thal	sicher
+1	490	Mittelhang	11	O	10	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+2	590	Oberhang	9	O	8	Kalkgesteinschutt	Schwemmkegel	NA	NA	gemischte Kegel	gemischte Kegel	KiKa	1
+3	395	Hangfuss	17	eben	0	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+4	412	Hangfuss	17	O	5	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+5	575	Mittelhang	11	O	10	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+6	545	Mittelhang	11	O	8	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+7	572	Mittelhang	11	O	6	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+8	481	Mittelhang	11	O	7	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+9	450	Mittelhang	11	O	3	Kalkgesteinschutt	NA	gestreckt	NA	Hangschutt	Hangschutt	HaKa	0
+10	430	Oberhang	9	O	10	Kalkgesteinschutt	Moraene	NA	NA	Moraene undifferenziert	Moraene undifferenziert	MoKa	0
+11	460	Hangfuss	17	O	3	Kolluvium	NA	NA	NA	Kolluvium	Kolluvium		1
+12	357	Hangfuss	17	ONO	5	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt		0
+13	386	Oberhang	9	ONO	14	lakustrisches Sediment	NA	NA	NA	Lakustrine Ablagerung	Glaziolakustrine Ablagerung		1
+14	390	Verebnung	2	eben	0	lakustrisches Sediment	NA	NA	NA	Lakustrine Ablagerung	Glaziolakustrine Ablagerung		1
+15	375	Verebnung	2	eben	0	lakustrisches Sediment	NA	NA	NA	Lakustrine Ablagerung	Glaziolakustrine Ablagerung		1
+16	415	Oberhang	9	O	17	Moraene	fluvioglaziales Sediment	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+17	484	Oberhang	9	O	7	Kalkgesteinschutt	Moraene	NA	NA	Hangschutt	Hangschutt	HaKa	0
+18	399	Verebnung	2	eben	0	Lakustrisches Sediment	NA	NA	NA	Lakustrine Ablagerung	Glaziolakustrine Ablagerung		1
+19	414	Oberhang	9	O	6	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+20	431	Talmulde	6	eben	0	aufgesch├╝ttetes Niedermoor	NA	NA	NA	Moorablagerung	Moorablagerung		1
+21	426	Mittelhang	11	W	5	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+22	436	H├╝gelkuppe	14	eben	0	Moraene 	auf fluviatilen Schottern	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+23	470	Hangverebnung	13	eben	0	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+24	426	Mittelhang	11	W	2	Moraene	lakustrisches Sediment	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+25	438	H├╝gelkuppe	14	S	2	Moraene	NA	verebnet	NA	Moraene undifferenziert	Moraene undifferenziert		1
+26	381	Mittelhang	11	O	5	Moraene	fluvioglaziale Ablagerungen	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+27	420	H├╝gelkuppe	14	NW	5	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+28	420	Hangfuss	17	NNW	3	Moraene	Kolluvium	Mulde	NA	Moraene undifferenziert	Moraene undifferenziert		0
+29	432	Talverebnung	2	eben	0	Moraene	Kolluvium	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+30	468	Oberhang	9	O	15	Moraene	fluviatile Schotter	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+31	485	H├╝gelkuppe	14	O	3	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+32	320	Oberhang	9	O	25	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	1
+33	394	Hangfuss	17	O	4	Kalkgesteinschutt	lakustrisches Sediment	NA	NA	Hangschutt	Hangschutt	HaKa	0
+34	345	Mittelhang	11	O	10	Moraene	fluviatile Schotter	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+35	340	Mittelhang	11	S	20	lakustrisches Sediment	NA	NA	NA	Lakustrine Ablagerung	Glaziolakustrine Ablagerung		1
+36	458	Mittelhang	11	SO	4	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt		1
+37	403	Mittelhang	11	W	7	Moraene	fluviatile Schotter	NA	NA	Moraene undifferenziert	Moraene undifferenziert		0
+38	325	Oberhang	9	N	12	lakustrisches Sediment	Moraene	NA	NA	Lakustrine Ablagerung	Glaziolakustrine Ablagerung		0
+39	287	Mittelhang	11	N	14	lakustrisches Sediment	fluviatile Schotter	NA	NA	Lakustrine Ablagerung	Glaziolakustrine Ablagerung		0
+40	384	Hangfuss	17	eben	0	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	1
+41	435	Hangschulter	9	W	8	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+42	511	Hangfuss	17	eben	0	Kalklehmkolluvium	NA	NA	NA	Kolluvium	Kolluvium		1
+43	482	Oberhang	9	SO	5	Kalkgesteinschutt	Moraene	NA	NA	Hangschutt	Hangschutt		0
+44	400	Mittelhang	11	O	17	fluviatile Schotter	NA	NA	NA	Alluviale Ablagerung	Alluviale Ablagerung		1
+45	487	Oberhang	9	SO	4	Kolluviuam	Moraene	NA	Porphyr	Kolluvium	Kolluvium		0
+46	465	Hangverebnung	13	eben	0	Kolluvium	Moraene	NA	Porphyr	Kolluvium	Kolluvium		0
+47	383	Mittelhang	11	S	6	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+48	300	Mittelhang	11	SW	5	fluviatile Schotter	NA	NA	NA	Alluviale Ablagerung	Alluviale Ablagerung		1
+49	350	Hangverebnung	13	S	5	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+50	247	Mittelhang	11	O	6	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+51	278	Mittelhang	11	SO	6	Kalkgesteinschutt	fluviatile Schotter	NA	NA	Hangschutt	Hangschutt	HaKa	0
+52	451	Unterhang	10	O	8	Kolluvium	NA	NA	NA	Kolluvium	Kolluvium		1
+53	350	Talmulde	6	eben	0	Kolluvium	NA	NA	NA	Kolluvium	Kolluvium		1
+54	293	Hangfuss	17	OSO	4	Kolluvium ├╝ber Kalgesteinschutt	NA	NA	NA	Kolluvium	Kolluvium		1
+55	268	Unterhang	10	W	8	fluviatile Schotter	Moraene	NA	NA	Alluviale Ablagerung	Alluviale Ablagerung		0
+56	229	Mittelhang	11	SO	10	fluviatile Schotter	NA	NA	NA	Alluviale Ablagerung	Alluviale Ablagerung		1
+57	380	Mittelhang	11	SO	10	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
+58	427	Mittelhang	11	O	8	Moraene	NA	NA	NA	Moraene undifferenziert	Moraene undifferenziert		1
+59	641	Mittelhang	11	S	5	Kalkgesteinschutt	NA	NA	NA	Hangschutt	Hangschutt	HaKa	0
