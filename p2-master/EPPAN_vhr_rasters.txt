@@ -1,0 +1,1057 @@
+List of rasters in relevant mapsets
+mapset: dtm_hr
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTER:
+Basisbodenkarte_gebiet1
+EPPAN_vhr_dsm
+EPPAN_vhr_dtm
+aspect_ws11_hr
+aspect_ws13_hr
+aspect_ws15_hr
+aspect_ws19_hr
+aspect_ws23_hr
+aspect_ws29_hr
+aspect_ws3_hr
+aspect_ws5_hr
+aspect_ws7_hr
+aspect_ws9_hr
+bodenbedeckung
+crosc_ws11_hr
+crosc_ws13_hr
+crosc_ws15_hr
+crosc_ws19_hr
+crosc_ws23_hr
+crosc_ws29_hr
+crosc_ws3_hr
+crosc_ws5_hr
+crosc_ws7_hr
+crosc_ws9_hr
+dtm_hr_TEXTURE_r_10cells
+dtm_hr_TEXTURE_r_3cells
+dtm_hr_TEXTURE_r_5cells
+dtm_hr_TEXTURE_r_6cells
+dtm_hr_TRI_r_10cells
+dtm_hr_TRI_r_3cells
+dtm_hr_TRI_r_5cells
+dtm_hr_TRI_r_6cells
+dtm_hr_VRM_r_10cells
+dtm_hr_VRM_r_3cells
+dtm_hr_VRM_r_5cells
+dtm_hr_VRM_r_6cells
+dtm_hr_eppan@PERMANENT
+dtm_hr_eppan@dtm_hr
+dtm_mitte
+dtm_nord
+dtm_sued
+geologie_JAPT
+geom_vhr_L15_fl1
+geom_vhr_L15_fl10
+geom_vhr_L3_fl1
+geom_vhr_L3_fl10
+geomorph_gebiet1
+hoehenstufen
+longc_ws11_hr
+longc_ws13_hr
+longc_ws15_hr
+longc_ws19_hr
+longc_ws23_hr
+longc_ws29_hr
+longc_ws3_hr
+longc_ws5_hr
+longc_ws7_hr
+longc_ws9_hr
+maxic_ws11_hr
+maxic_ws13_hr
+maxic_ws15_hr
+maxic_ws19_hr
+maxic_ws23_hr
+maxic_ws29_hr
+maxic_ws3_hr
+maxic_ws5_hr
+maxic_ws7_hr
+maxic_ws9_hr
+minic_ws11_hr
+minic_ws13_hr
+minic_ws15_hr
+minic_ws19_hr
+minic_ws23_hr
+minic_ws29_hr
+minic_ws3_hr
+minic_ws5_hr
+minic_ws7_hr
+minic_ws9_hr
+planc_ws11_hr
+planc_ws13_hr
+planc_ws15_hr
+planc_ws19_hr
+planc_ws23_hr
+planc_ws29_hr
+planc_ws3_hr
+planc_ws5_hr
+planc_ws7_hr
+planc_ws9_hr
+profc_ws11_hr
+profc_ws13_hr
+profc_ws15_hr
+profc_ws19_hr
+profc_ws23_hr
+profc_ws29_hr
+profc_ws3_hr
+profc_ws5_hr
+profc_ws7_hr
+profc_ws9_hr
+shade_vhr_dsm
+shade_vhr_dtm
+slope_ws11_hr
+slope_ws13_hr
+slope_ws15_hr
+slope_ws19_hr
+slope_ws23_hr
+slope_ws29_hr
+slope_ws3_hr
+slope_ws5_hr
+slope_ws7_hr
+slope_ws9_hr
+
+mapset:dtm_hr_avg5m
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTERS:
+crosc_ws15_hr
+crosc_ws3_hr
+crosc_ws7_hr
+dtm_hr_5mavg
+dtm_hr_eppan
+longc_ws15_hr
+longc_ws3_hr
+longc_ws7_hr
+maxic_ws15_hr
+maxic_ws3_hr
+maxic_ws7_hr
+minic_ws15_hr
+minic_ws3_hr
+minic_ws7_hr
+planc_ws15_hr
+planc_ws3_hr
+planc_ws7_hr
+profc_ws15_hr
+profc_ws3_hr
+profc_ws7_hr
+slope_ws15_hr
+slope_ws3_hr
+slope_ws7_hr
+
+mapset: dtm_hr_rli
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTERS:
+geom_hr_L3_fl10_r.li.dominance_UE_hr_10cells
+geom_hr_L3_fl10_r.li.dominance_UE_hr_20cells
+geom_hr_L3_fl10_r.li.dominance_UE_hr_40cells
+geom_hr_L3_fl10_r.li.dominance_UE_hr_5cells
+geom_hr_L3_fl10_r.li.dominance_UE_hr_60cells
+geom_hr_L3_fl10_r.li.edgedensity_UE_hr_10cells
+geom_hr_L3_fl10_r.li.edgedensity_UE_hr_20cells
+geom_hr_L3_fl10_r.li.edgedensity_UE_hr_40cells
+geom_hr_L3_fl10_r.li.edgedensity_UE_hr_5cells
+geom_hr_L3_fl10_r.li.edgedensity_UE_hr_60cells
+geom_hr_L3_fl10_r.li.mps_UE_hr_10cells
+geom_hr_L3_fl10_r.li.mps_UE_hr_20cells
+geom_hr_L3_fl10_r.li.mps_UE_hr_40cells
+geom_hr_L3_fl10_r.li.mps_UE_hr_5cells
+geom_hr_L3_fl10_r.li.mps_UE_hr_60cells
+geom_hr_L3_fl10_r.li.patchdensity_UE_hr_10cells
+geom_hr_L3_fl10_r.li.patchdensity_UE_hr_20cells
+geom_hr_L3_fl10_r.li.patchdensity_UE_hr_40cells
+geom_hr_L3_fl10_r.li.patchdensity_UE_hr_5cells
+geom_hr_L3_fl10_r.li.patchdensity_UE_hr_60cells
+geom_hr_L3_fl10_r.li.patchnum_UE_hr_10cells
+geom_hr_L3_fl10_r.li.patchnum_UE_hr_20cells
+geom_hr_L3_fl10_r.li.patchnum_UE_hr_40cells
+geom_hr_L3_fl10_r.li.patchnum_UE_hr_5cells
+geom_hr_L3_fl10_r.li.patchnum_UE_hr_60cells
+geom_hr_L3_fl10_r.li.pielou_UE_hr_10cells
+geom_hr_L3_fl10_r.li.pielou_UE_hr_20cells
+geom_hr_L3_fl10_r.li.pielou_UE_hr_40cells
+geom_hr_L3_fl10_r.li.pielou_UE_hr_5cells
+geom_hr_L3_fl10_r.li.pielou_UE_hr_60cells
+geom_hr_L3_fl10_r.li.richness_UE_hr_10cells
+geom_hr_L3_fl10_r.li.richness_UE_hr_20cells
+geom_hr_L3_fl10_r.li.richness_UE_hr_40cells
+geom_hr_L3_fl10_r.li.richness_UE_hr_5cells
+geom_hr_L3_fl10_r.li.richness_UE_hr_60cells
+geom_hr_L3_fl10_r.li.shannon_UE_hr_10cells
+geom_hr_L3_fl10_r.li.shannon_UE_hr_20cells
+geom_hr_L3_fl10_r.li.shannon_UE_hr_40cells
+geom_hr_L3_fl10_r.li.shannon_UE_hr_5cells
+geom_hr_L3_fl10_r.li.shannon_UE_hr_60cells
+geom_hr_L3_fl10_r.li.shape_UE_hr_10cells
+geom_hr_L3_fl10_r.li.shape_UE_hr_20cells
+geom_hr_L3_fl10_r.li.shape_UE_hr_40cells
+geom_hr_L3_fl10_r.li.shape_UE_hr_5cells
+geom_hr_L3_fl10_r.li.shape_UE_hr_60cells
+geom_hr_L3_fl10_r.li.simpson_UE_hr_10cells
+geom_hr_L3_fl10_r.li.simpson_UE_hr_20cells
+geom_hr_L3_fl10_r.li.simpson_UE_hr_40cells
+geom_hr_L3_fl10_r.li.simpson_UE_hr_5cells
+geom_hr_L3_fl10_r.li.simpson_UE_hr_60cells
+geom_hr_L3_fl1_r.li.dominance_UE_hr_10cells
+geom_hr_L3_fl1_r.li.dominance_UE_hr_20cells
+geom_hr_L3_fl1_r.li.dominance_UE_hr_40cells
+geom_hr_L3_fl1_r.li.dominance_UE_hr_5cells
+geom_hr_L3_fl1_r.li.dominance_UE_hr_60cells
+geom_hr_L3_fl1_r.li.edgedensity_UE_hr_10cells
+geom_hr_L3_fl1_r.li.edgedensity_UE_hr_20cells
+geom_hr_L3_fl1_r.li.edgedensity_UE_hr_40cells
+geom_hr_L3_fl1_r.li.edgedensity_UE_hr_5cells
+geom_hr_L3_fl1_r.li.edgedensity_UE_hr_60cells
+geom_hr_L3_fl1_r.li.mps_UE_hr_10cells
+geom_hr_L3_fl1_r.li.mps_UE_hr_20cells
+geom_hr_L3_fl1_r.li.mps_UE_hr_40cells
+geom_hr_L3_fl1_r.li.mps_UE_hr_5cells
+geom_hr_L3_fl1_r.li.mps_UE_hr_60cells
+geom_hr_L3_fl1_r.li.patchdensity_UE_hr_10cells
+geom_hr_L3_fl1_r.li.patchdensity_UE_hr_20cells
+geom_hr_L3_fl1_r.li.patchdensity_UE_hr_40cells
+geom_hr_L3_fl1_r.li.patchdensity_UE_hr_5cells
+geom_hr_L3_fl1_r.li.patchdensity_UE_hr_60cells
+geom_hr_L3_fl1_r.li.patchnum_UE_hr_10cells
+geom_hr_L3_fl1_r.li.patchnum_UE_hr_20cells
+geom_hr_L3_fl1_r.li.patchnum_UE_hr_40cells
+geom_hr_L3_fl1_r.li.patchnum_UE_hr_5cells
+geom_hr_L3_fl1_r.li.patchnum_UE_hr_60cells
+geom_hr_L3_fl1_r.li.pielou_UE_hr_10cells
+geom_hr_L3_fl1_r.li.pielou_UE_hr_20cells
+geom_hr_L3_fl1_r.li.pielou_UE_hr_40cells
+geom_hr_L3_fl1_r.li.pielou_UE_hr_5cells
+geom_hr_L3_fl1_r.li.pielou_UE_hr_60cells
+geom_hr_L3_fl1_r.li.richness_UE_hr_10cells
+geom_hr_L3_fl1_r.li.richness_UE_hr_20cells
+geom_hr_L3_fl1_r.li.richness_UE_hr_40cells
+geom_hr_L3_fl1_r.li.richness_UE_hr_5cells
+geom_hr_L3_fl1_r.li.richness_UE_hr_60cells
+geom_hr_L3_fl1_r.li.shannon_UE_hr_10cells
+geom_hr_L3_fl1_r.li.shannon_UE_hr_20cells
+geom_hr_L3_fl1_r.li.shannon_UE_hr_40cells
+geom_hr_L3_fl1_r.li.shannon_UE_hr_5cells
+geom_hr_L3_fl1_r.li.shannon_UE_hr_60cells
+geom_hr_L3_fl1_r.li.shape_UE_hr_10cells
+geom_hr_L3_fl1_r.li.shape_UE_hr_20cells
+geom_hr_L3_fl1_r.li.shape_UE_hr_40cells
+geom_hr_L3_fl1_r.li.shape_UE_hr_5cells
+geom_hr_L3_fl1_r.li.shape_UE_hr_60cells
+geom_hr_L3_fl1_r.li.simpson_UE_hr_10cells
+geom_hr_L3_fl1_r.li.simpson_UE_hr_20cells
+geom_hr_L3_fl1_r.li.simpson_UE_hr_40cells
+geom_hr_L3_fl1_r.li.simpson_UE_hr_5cells
+geom_hr_L3_fl1_r.li.simpson_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.dominance_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.dominance_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.dominance_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.dominance_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.dominance_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.edgedensity_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.edgedensity_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.edgedensity_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.edgedensity_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.edgedensity_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.mps_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.mps_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.mps_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.mps_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.mps_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.patchdensity_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.patchdensity_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.patchdensity_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.patchdensity_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.patchdensity_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.patchnum_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.patchnum_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.patchnum_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.patchnum_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.patchnum_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.pielou_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.pielou_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.pielou_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.pielou_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.pielou_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.richness_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.richness_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.richness_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.richness_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.richness_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.shannon_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.shannon_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.shannon_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.shannon_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.shannon_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.shape_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.shape_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.shape_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.shape_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.shape_UE_hr_60cells
+geom_hr_L50m_fl10_r.li.simpson_UE_hr_10cells
+geom_hr_L50m_fl10_r.li.simpson_UE_hr_20cells
+geom_hr_L50m_fl10_r.li.simpson_UE_hr_40cells
+geom_hr_L50m_fl10_r.li.simpson_UE_hr_5cells
+geom_hr_L50m_fl10_r.li.simpson_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.dominance_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.dominance_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.dominance_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.dominance_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.dominance_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.edgedensity_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.edgedensity_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.edgedensity_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.edgedensity_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.edgedensity_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.mps_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.mps_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.mps_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.mps_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.mps_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.patchdensity_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.patchdensity_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.patchdensity_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.patchdensity_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.patchdensity_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.patchnum_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.patchnum_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.patchnum_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.patchnum_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.patchnum_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.pielou_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.pielou_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.pielou_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.pielou_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.pielou_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.richness_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.richness_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.richness_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.richness_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.richness_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.shannon_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.shannon_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.shannon_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.shannon_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.shannon_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.shape_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.shape_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.shape_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.shape_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.shape_UE_hr_60cells
+geom_hr_L50m_fl1_r.li.simpson_UE_hr_10cells
+geom_hr_L50m_fl1_r.li.simpson_UE_hr_20cells
+geom_hr_L50m_fl1_r.li.simpson_UE_hr_40cells
+geom_hr_L50m_fl1_r.li.simpson_UE_hr_5cells
+geom_hr_L50m_fl1_r.li.simpson_UE_hr_60cells
+
+mapset: dtm_hr_roughnessvector
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+aspect
+colatitude
+compass
+dtm_hr_eppan
+fischerk_ws11
+fischerk_ws13
+fischerk_ws15
+fischerk_ws17
+fischerk_ws19
+fischerk_ws21
+fischerk_ws23
+fischerk_ws25
+fischerk_ws27
+fischerk_ws29
+fischerk_ws3
+fischerk_ws31
+fischerk_ws33
+fischerk_ws35
+fischerk_ws37
+fischerk_ws39
+fischerk_ws41
+fischerk_ws43
+fischerk_ws45
+fischerk_ws47
+fischerk_ws49
+fischerk_ws5
+fischerk_ws51
+fischerk_ws53
+fischerk_ws55
+fischerk_ws57
+fischerk_ws59
+fischerk_ws61
+fischerk_ws7
+fischerk_ws9
+slope
+vectorstrength_hr_ws11
+vectorstrength_hr_ws13
+vectorstrength_hr_ws15
+vectorstrength_hr_ws17
+vectorstrength_hr_ws19
+vectorstrength_hr_ws21
+vectorstrength_hr_ws23
+vectorstrength_hr_ws25
+vectorstrength_hr_ws27
+vectorstrength_hr_ws29
+vectorstrength_hr_ws3
+vectorstrength_hr_ws31
+vectorstrength_hr_ws33
+vectorstrength_hr_ws35
+vectorstrength_hr_ws37
+vectorstrength_hr_ws39
+vectorstrength_hr_ws41
+vectorstrength_hr_ws43
+vectorstrength_hr_ws45
+vectorstrength_hr_ws47
+vectorstrength_hr_ws49
+vectorstrength_hr_ws5
+vectorstrength_hr_ws51
+vectorstrength_hr_ws53
+vectorstrength_hr_ws55
+vectorstrength_hr_ws57
+vectorstrength_hr_ws59
+vectorstrength_hr_ws61
+vectorstrength_hr_ws7
+vectorstrength_hr_ws9
+xcos
+ycos
+zcos
+
+mapset: dtm_hr_Texture
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+dtm_hr_eppan
+terraintexture_hr_ws13_t1
+terraintexture_hr_ws13_tp25
+terraintexture_hr_ws13_tp5
+terraintexture_hr_ws17_t1
+terraintexture_hr_ws17_tp25
+terraintexture_hr_ws17_tp5
+terraintexture_hr_ws21_t1
+terraintexture_hr_ws21_tp25
+terraintexture_hr_ws21_tp5
+terraintexture_hr_ws25_t1
+terraintexture_hr_ws25_tp25
+terraintexture_hr_ws25_tp5
+terraintexture_hr_ws29_t1
+terraintexture_hr_ws29_tp25
+terraintexture_hr_ws29_tp5
+terraintexture_hr_ws33_t1
+terraintexture_hr_ws33_tp25
+terraintexture_hr_ws33_tp5
+terraintexture_hr_ws37_t1
+terraintexture_hr_ws37_tp25
+terraintexture_hr_ws37_tp5
+terraintexture_hr_ws41_t1
+terraintexture_hr_ws41_tp25
+terraintexture_hr_ws41_tp5
+terraintexture_hr_ws45_t1
+terraintexture_hr_ws45_tp25
+terraintexture_hr_ws45_tp5
+terraintexture_hr_ws49_t1
+terraintexture_hr_ws49_tp25
+terraintexture_hr_ws49_tp5
+terraintexture_hr_ws53_t1
+terraintexture_hr_ws53_tp25
+terraintexture_hr_ws53_tp5
+terraintexture_hr_ws57_t1
+terraintexture_hr_ws57_tp25
+terraintexture_hr_ws57_tp5
+terraintexture_hr_ws5_t1
+terraintexture_hr_ws5_tp25
+terraintexture_hr_ws5_tp5
+terraintexture_hr_ws9_t1
+terraintexture_hr_ws9_tp25
+terraintexture_hr_ws9_tp5
+
+mapset:dtm_hr_TRI
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTERS:
+TRI_hr_ws1
+TRI_hr_ws10
+TRI_hr_ws11
+TRI_hr_ws12
+TRI_hr_ws13
+TRI_hr_ws14
+TRI_hr_ws15
+TRI_hr_ws16
+TRI_hr_ws17
+TRI_hr_ws18
+TRI_hr_ws19
+TRI_hr_ws2
+TRI_hr_ws20
+TRI_hr_ws21
+TRI_hr_ws22
+TRI_hr_ws23
+TRI_hr_ws24
+TRI_hr_ws25
+TRI_hr_ws26
+TRI_hr_ws27
+TRI_hr_ws28
+TRI_hr_ws29
+TRI_hr_ws3
+TRI_hr_ws30
+TRI_hr_ws31
+TRI_hr_ws32
+TRI_hr_ws33
+TRI_hr_ws34
+TRI_hr_ws35
+TRI_hr_ws36
+TRI_hr_ws37
+TRI_hr_ws38
+TRI_hr_ws39
+TRI_hr_ws4
+TRI_hr_ws40
+TRI_hr_ws41
+TRI_hr_ws42
+TRI_hr_ws43
+TRI_hr_ws44
+TRI_hr_ws45
+TRI_hr_ws46
+TRI_hr_ws47
+TRI_hr_ws48
+TRI_hr_ws49
+TRI_hr_ws5
+TRI_hr_ws50
+TRI_hr_ws51
+TRI_hr_ws52
+TRI_hr_ws53
+TRI_hr_ws55
+TRI_hr_ws57
+TRI_hr_ws6
+TRI_hr_ws7
+TRI_hr_ws8
+TRI_hr_ws9
+dtm_hr_eppan
+
+mapset:dtm_hr_variability
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTERS:
+geom_hr_L1500m_fl1
+geom_hr_L3_fl1
+geom_hr_L3_fl10
+geom_hr_L50m_fl1
+geom_hr_L50m_fl10
+
+mapset=dtm_hr_vectorruggedness
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTERS:
+dtm_hr_eppan
+vectorruggedness_hr_ws11
+vectorruggedness_hr_ws13
+vectorruggedness_hr_ws15
+vectorruggedness_hr_ws17
+vectorruggedness_hr_ws19
+vectorruggedness_hr_ws21
+vectorruggedness_hr_ws23
+vectorruggedness_hr_ws25
+vectorruggedness_hr_ws27
+vectorruggedness_hr_ws29
+vectorruggedness_hr_ws3
+vectorruggedness_hr_ws31
+vectorruggedness_hr_ws33
+vectorruggedness_hr_ws35
+vectorruggedness_hr_ws37
+vectorruggedness_hr_ws39
+vectorruggedness_hr_ws41
+vectorruggedness_hr_ws43
+vectorruggedness_hr_ws45
+vectorruggedness_hr_ws47
+vectorruggedness_hr_ws49
+vectorruggedness_hr_ws5
+vectorruggedness_hr_ws51
+vectorruggedness_hr_ws53
+vectorruggedness_hr_ws55
+vectorruggedness_hr_ws57
+vectorruggedness_hr_ws59
+vectorruggedness_hr_ws7
+vectorruggedness_hr_ws9
+
+mapset=hydro_hr
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTERS:
+Catchment_area_hr
+Catchment_slope_hr
+MRRTF
+MRVBF
+Mass_Balance_Index_hr
+Maximum_Height
+Melton_Ruggedness_Number
+MidSlope_Positon
+Modified_Catchment_Area_hr
+Normalized_Height
+Slope_Height
+Standardized_Height
+Valley_Depth
+dtm_hr_eppan
+saga_Topographic_Wetness_Index
+
+mapset=paper3data
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      2.5
+ewres:      2.5
+rows:       8160
+cols:       4920
+cells:      40147200
+RASTERS:
+Catchment_slope
+ChannelNetworkBaseLevel
+Channel_Network_Base_Level
+Convexity
+Longitudinal_Curvature
+MASK
+Maximum_Height_hr
+Normalized_Height
+TPI_i0m_o500m
+TRI_hr_ws26
+Texture
+VerticalDistancetoChannelNetwork
+aspect_ws15_hr
+bodenbedeckung
+crosc_DTM_50m_avg_ws3
+crosc_DTM_50m_avg_ws7
+geom_dtm_10m_hyd_fl5_L30
+geom_hr_L3_fl1_r.li.simpson_UE_hr_40cells
+geomorph_gebiet1
+hoehenstufen
+longc_DTM_50m_avg_ws7
+profc_DTM_50m_avg_ws7
+slope_DTM_50m_avg_ws3
+slope_DTM_50m_avg_ws7
+slope_ws15
+slope_ws15_hr
+
+mapset=PERMANENT
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5156517.25926535
+south:      5135148.25927264
+west:       668393.24974336
+east:       679115.74971706
+nsres:      0.5
+ewres:      0.5
+rows:       42738
+cols:       21445
+cells:      916516410
+
+RASTERS:
+EPPAN_vhr_dsm
+EPPAN_vhr_dtm
+dtm_hr_TEXTURE_r_10cells
+dtm_hr_TEXTURE_r_3cells
+dtm_hr_TEXTURE_r_5cells
+dtm_hr_TEXTURE_r_6cells
+dtm_hr_TRI_r_10cells
+dtm_hr_TRI_r_3cells
+dtm_hr_TRI_r_5cells
+dtm_hr_TRI_r_6cells
+dtm_hr_VRM_r_10cells
+dtm_hr_VRM_r_3cells
+dtm_hr_VRM_r_5cells
+dtm_hr_VRM_r_6cells
+dtm_hr_eppan
+dtm_mitte
+dtm_nord
+dtm_sued
+geom_vhr_L15_fl1
+geom_vhr_L15_fl10
+geom_vhr_L3_fl1
+geom_vhr_L3_fl10
+shade_vhr_dsm
+shade_vhr_dtm
+
+mapset=rauhigkeit_5m
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5146890
+south:      5135925
+west:       673470
+east:       677640
+nsres:      5
+ewres:      5
+rows:       2193
+cols:       834
+cells:      1828962
+
+RASTERS:
+EPPAN_vhr_dtm_avg5m
+EPPAN_vhr_dtm_max5m
+MASK
+crosc_ws15_hr
+crosc_ws3_hr
+crosc_ws7_hr
+dtm_hr_5mavg
+dtm_hr_TEXTURE_r_10cells_avg5m
+dtm_hr_TEXTURE_r_10cells_max5m
+dtm_hr_TEXTURE_r_3cells_avg5m
+dtm_hr_TEXTURE_r_3cells_max5m
+dtm_hr_TEXTURE_r_5cells_avg5m
+dtm_hr_TEXTURE_r_5cells_max5m
+dtm_hr_TEXTURE_r_6cells_avg5m
+dtm_hr_TEXTURE_r_6cells_max5m
+dtm_hr_TRI_r_10cells_avg5m
+dtm_hr_TRI_r_10cells_max5m
+dtm_hr_TRI_r_3cells_avg5m
+dtm_hr_TRI_r_3cells_max5m
+dtm_hr_TRI_r_5cells_avg5m
+dtm_hr_TRI_r_5cells_max5m
+dtm_hr_TRI_r_6cells_avg5m
+dtm_hr_TRI_r_6cells_max5m
+dtm_hr_VRM_r_10cells_avg5m
+dtm_hr_VRM_r_10cells_max5m
+dtm_hr_VRM_r_3cells_avg5m
+dtm_hr_VRM_r_3cells_max5m
+dtm_hr_VRM_r_5cells_avg5m
+dtm_hr_VRM_r_5cells_max5m
+dtm_hr_VRM_r_6cells_avg5m
+dtm_hr_VRM_r_6cells_max5m
+dtm_vhr_TEXTURE_r_10cells_avg5m
+dtm_vhr_TEXTURE_r_10cells_max5m
+dtm_vhr_TEXTURE_r_30cells_avg5m
+dtm_vhr_TEXTURE_r_30cells_max5m
+dtm_vhr_TEXTURE_r_5cells_avg5m
+dtm_vhr_TEXTURE_r_5cells_max5m
+dtm_vhr_TRI_r_10cells_avg5m
+dtm_vhr_TRI_r_10cells_max5m
+dtm_vhr_TRI_r_30cells_avg5m
+dtm_vhr_TRI_r_30cells_max5m
+dtm_vhr_TRI_r_5cells_avg5m
+dtm_vhr_TRI_r_5cells_max5m
+dtm_vhr_VRM_r_10cells_avg5m
+dtm_vhr_VRM_r_10cells_max5m
+dtm_vhr_VRM_r_30cells_avg5m
+dtm_vhr_VRM_r_30cells_max5m
+dtm_vhr_VRM_r_5cells_avg5m
+dtm_vhr_VRM_r_5cells_max5m
+longc_ws15_hr
+longc_ws3_hr
+longc_ws7_hr
+maxic_ws15_hr
+maxic_ws3_hr
+maxic_ws7_hr
+minic_ws15_hr
+minic_ws3_hr
+minic_ws7_hr
+planc_ws15_hr
+planc_ws3_hr
+planc_ws7_hr
+profc_ws15_hr
+profc_ws3_hr
+profc_ws7_hr
+slope_ws15_hr
+slope_ws3_hr
+slope_ws7_hr
+suoli_cat_res5m
+suoli_rast
+
+mapset=rauhigkeit_5m_EPPAN
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5157435
+south:      5137690
+west:       666450
+east:       678010
+nsres:      5
+ewres:      5
+rows:       3949
+cols:       2312
+cells:      9130088
+RASTERS:
+EPPAN_vhr_dtm_avg5m
+EPPAN_vhr_dtm_max5m
+MASK
+TRI_11
+crosc_ws15_hr
+crosc_ws3_hr
+crosc_ws7_hr
+dtm_hr_TEXTURE_r_10cells_avg5m
+dtm_hr_TEXTURE_r_10cells_max5m
+dtm_hr_TEXTURE_r_3cells_avg5m
+dtm_hr_TEXTURE_r_3cells_max5m
+dtm_hr_TEXTURE_r_5cells_avg5m
+dtm_hr_TEXTURE_r_5cells_max5m
+dtm_hr_TEXTURE_r_6cells_avg5m
+dtm_hr_TEXTURE_r_6cells_max5m
+dtm_hr_TRI_r_10cells_avg5m
+dtm_hr_TRI_r_10cells_max5m
+dtm_hr_TRI_r_3cells_avg5m
+dtm_hr_TRI_r_3cells_max5m
+dtm_hr_TRI_r_5cells_avg5m
+dtm_hr_TRI_r_5cells_max5m
+dtm_hr_TRI_r_6cells_avg5m
+dtm_hr_TRI_r_6cells_max5m
+dtm_hr_VRM_r_10cells_avg5m
+dtm_hr_VRM_r_10cells_max5m
+dtm_hr_VRM_r_3cells_avg5m
+dtm_hr_VRM_r_3cells_max5m
+dtm_hr_VRM_r_5cells_avg5m
+dtm_hr_VRM_r_5cells_max5m
+dtm_hr_VRM_r_6cells_avg5m
+dtm_hr_VRM_r_6cells_max5m
+dtm_vhr_TEXTURE_r_10cells_avg5m
+dtm_vhr_TEXTURE_r_10cells_max5m
+dtm_vhr_TEXTURE_r_30cells_avg5m
+dtm_vhr_TEXTURE_r_30cells_max5m
+dtm_vhr_TEXTURE_r_5cells_avg5m
+dtm_vhr_TEXTURE_r_5cells_max5m
+dtm_vhr_TRI_r_10cells_avg5m
+dtm_vhr_TRI_r_10cells_max5m
+dtm_vhr_TRI_r_30cells_avg5m
+dtm_vhr_TRI_r_30cells_max5m
+dtm_vhr_TRI_r_5cells_avg5m
+dtm_vhr_TRI_r_5cells_max5m
+dtm_vhr_VRM_r_10cells_avg5m
+dtm_vhr_VRM_r_10cells_max5m
+dtm_vhr_VRM_r_30cells_avg5m
+dtm_vhr_VRM_r_30cells_max5m
+dtm_vhr_VRM_r_5cells_avg5m
+dtm_vhr_VRM_r_5cells_max5m
+gebiet1_parentmaterial
+longc_ws15_hr
+longc_ws3_hr
+longc_ws7_hr
+maxic_ws15_hr
+maxic_ws3_hr
+maxic_ws7_hr
+minic_ws15_hr
+minic_ws3_hr
+minic_ws7_hr
+planc_ws15_hr
+planc_ws3_hr
+planc_ws7_hr
+profc_ws15_hr
+profc_ws3_hr
+profc_ws7_hr
+rauhigkeitsmodell_svm
+rauigkeitsklassen
+slope_ws15_hr
+slope_ws3_hr
+slope_ws7_hr
+suoli_rast
+
+mapset=res10m_variability
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5155600
+south:      5135200
+west:       668200
+east:       680500
+nsres:      10
+ewres:      10
+rows:       2040
+cols:       1230
+cells:      2509200
+RASTERS:
+dtm_hr_TEXTURE_r_10cells_avg10m
+dtm_hr_TEXTURE_r_10cells_max10m
+dtm_hr_TEXTURE_r_3cells_avg10m
+dtm_hr_TEXTURE_r_3cells_max10m
+dtm_hr_TEXTURE_r_5cells_avg10m
+dtm_hr_TEXTURE_r_5cells_max10m
+dtm_hr_TEXTURE_r_6cells_avg10m
+dtm_hr_TEXTURE_r_6cells_max10m
+dtm_hr_TRI_r_10cells_avg10m
+dtm_hr_TRI_r_10cells_max10m
+dtm_hr_TRI_r_3cells_avg10m
+dtm_hr_TRI_r_3cells_max10m
+dtm_hr_TRI_r_5cells_avg10m
+dtm_hr_TRI_r_5cells_max10m
+dtm_hr_TRI_r_6cells_avg10m
+dtm_hr_TRI_r_6cells_max10m
+dtm_hr_VRM_r_10cells_avg10m
+dtm_hr_VRM_r_10cells_max10m
+dtm_hr_VRM_r_3cells_avg10m
+dtm_hr_VRM_r_3cells_max10m
+dtm_hr_VRM_r_5cells_avg10m
+dtm_hr_VRM_r_5cells_max10m
+dtm_hr_VRM_r_6cells_avg10m
+dtm_hr_VRM_r_6cells_max10m
+dtm_hr_eppan_avg10m
+dtm_hr_eppan_max10m
+dtm_vhr_TEXTURE_r_10cells_avg10m
+dtm_vhr_TEXTURE_r_10cells_max10m
+dtm_vhr_TEXTURE_r_30cells_avg10m
+dtm_vhr_TEXTURE_r_30cells_max10m
+dtm_vhr_TEXTURE_r_5cells_avg10m
+dtm_vhr_TEXTURE_r_5cells_max10m
+dtm_vhr_TRI_r_10cells_avg10m
+dtm_vhr_TRI_r_10cells_max10m
+dtm_vhr_TRI_r_30cells_avg10m
+dtm_vhr_TRI_r_30cells_max10m
+dtm_vhr_TRI_r_5cells_avg10m
+dtm_vhr_TRI_r_5cells_max10m
+dtm_vhr_VRM_r_10cells_avg10m
+dtm_vhr_VRM_r_10cells_max10m
+dtm_vhr_VRM_r_30cells_avg10m
+dtm_vhr_VRM_r_30cells_max10m
+dtm_vhr_VRM_r_5cells_avg10m
+dtm_vhr_VRM_r_5cells_max10m
+
+mapset=chr_TRI TEXTURE
+projection: 1 (UTM)
+zone:       32
+datum:      towgs84=0,0,0,0,0,0,0
+ellipsoid:  grs80
+north:      5156517.25926535
+south:      5135148.25927264
+west:       668393.24974336
+east:       679115.74971706
+nsres:      0.5
+ewres:      0.5
+rows:       42738
+cols:       21445
+cells:      916516410
+RASTERS:
+EPPAN_vhr_dtm
+dtm_vhr_TEXTURE_r_10cells
+dtm_vhr_TEXTURE_r_30cells
+dtm_vhr_TEXTURE_r_5cells
+dtm_vhr_TRI_r_10cells
+dtm_vhr_TRI_r_30cells
+dtm_vhr_TRI_r_5cells
+dtm_vhr_VRM_r_10cells
+dtm_vhr_VRM_r_30cells
+dtm_vhr_VRM_r_5cells
+dtm_vhr_tile_1_1_VRM_r_10cells
+dtm_vhr_tile_1_1_VRM_r_30cells
+dtm_vhr_tile_1_1_VRM_r_5cells
+dtm_vhr_tile_1_2_VRM_r_10cells
+dtm_vhr_tile_1_2_VRM_r_30cells
+dtm_vhr_tile_1_2_VRM_r_5cells
+dtm_vhr_tile_2_1_VRM_r_10cells
+dtm_vhr_tile_2_1_VRM_r_30cells
+dtm_vhr_tile_2_1_VRM_r_5cells
+dtm_vhr_tile_2_2_VRM_r_10cells
+dtm_vhr_tile_2_2_VRM_r_30cells
+dtm_vhr_tile_2_2_VRM_r_5cells
+dtm_vhr_tile_3_1_VRM_r_10cells
+dtm_vhr_tile_3_1_VRM_r_30cells
+dtm_vhr_tile_3_1_VRM_r_5cells
+dtm_vhr_tile_3_2_VRM_r_10cells
+dtm_vhr_tile_3_2_VRM_r_30cells
+dtm_vhr_tile_3_2_VRM_r_5cells
+dtm_vhr_tile_4_1_VRM_r_10cells
+dtm_vhr_tile_4_1_VRM_r_30cells
+dtm_vhr_tile_4_1_VRM_r_5cells
+dtm_vhr_tile_4_2_VRM_r_10cells
+dtm_vhr_tile_4_2_VRM_r_30cells
+dtm_vhr_tile_4_2_VRM_r_5cells

@@ -1,0 +1,247 @@
+\documentclass[preprint,12pt,authoryear]{elsarticle}
+%\documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+%\bibliographystyle{elsarticle-harv}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Joint analysis of geological map units and topography to support soil survey - a case study from South Tyrol}
+
+
+%% Group authors per affiliation:
+
+\author[mymainadress]{Fabian E. Gruber\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{Fabian.Gruber@uibk.ac.at}
+\author[mymainadress]{Jasmin Baruck}
+\author[mymainadress]{Clemens Geitner}
+
+
+
+\address[mymainadress]{Institute of Geography, University of Innsbruck, Innrain 52f, 6020 Innsbruck, Austria}
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{keyword}
+
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+\paragraph{general introduction}
+Geologic maps have always been an important aid in soil survey as parent material is an important factor in soil formation \citep{Jenny1941}. The importance of this relationship is highlighted by the fact that, vice versa, soil maps have themselves been applied to support and improve geologic mapping \citep{Brevik2015}. 
+
+Hier vielleicth Juilleret und so für die wichtigkeit des ausgansgsmaterials.
+
+Situation in the Alps
+
+\paragraph{overview of literature with regard to the use of geologic maps in classic field soil survey and digital soil mapping in literature- what parent material classes are there in the classifications}
+\paragraph{literature overview with regard to terrain parameters for characterisation and soil survey, allgemeine geomorphmetry kurz zitiern}
+Researchers have long investigated ways to quantify the roughness or ruggedness of terrain, from the analysis of field data and topographic maps to computing roughness indices on raster grids. Geology, geomorphology as well as habitat modelling and wildlife management have been the main research areas in which such investigations were performed on land surfaces.  \cite{Hobson1972} presented three different roughness values and applied them to field measurements, correlating them to rock type. In another early study aimed at quantifying roughness, \cite{Beasom1983} presented the land surface ruggedness index, which is based on the total length of contour lines per area. Similarily analysing topographic maps, \cite{Nellemann1994} describe the calculation of a terrain ruggedness index based on the variability of contour lines along transects, which they correlate with caribou forage availability. Regarding field methods, they calculate microtopographic diversity by analysing the horizontal distance of a chain laid on the ground in their study plots. \cite{Riley1999} proposed the topographic ruggedness index (TRI), which compares the elevation of a central pixel to the elevations of cells within a given search window. In an attempt to decorrelate roughness from slope, \cite{Sappington2007} expanded on the work of \cite{Hobson1972} to introduce vector ruggedness measure (VRM), which is calculated based on the orientation of vectors normal to the surface in a given area. \citep{Grohmann2010} analysed several roughness measures at different resolutions and window sizes with regard to their ability to depict terrain features. They highlight the ability of VRM to detect fine-scale roughness features and attribute low roughness values to steep but smooth slopes, but also acknowledge its inability to delimit slope breaks and identify regional relief. The Melton ruggedness index, which relates  the elevation difference of a basin to the drainage area, was applied by \cite{Marchi2005} to investigate sediment transport, however compared to VRM  it is more of a measure of general relief than roughness. Similar to VRM, roughness measures based on eigenvalue ratios of an orientation matrix have long been used in geology to describe land surfaces, especially of bedrock. \cite{Coblentz2014} investigated the use of such measures ...
+
+\paragraph{overview of intention and aims}
+In a first step we analyse how well the geologic units of the high resolution geologic map correspond to the parent material identified by the soil surveyor, thus evaluating the performance and reliability of geologic maps to support soil survey in South Tyrol. This requires generalisation of the geologic units into surficial geology units (SGUs) that can be compared to the parent material units used in the soil (or forestry) surveys, called  The result is a confusion matrix that shows to which extent geologic units are in accordance with the parent material mapped by the surveyor.  We highlight those units that are often confused or show overlap, and which should consequently be surveyed with greater detail and in consideration of relevant topographic information.
+
+The next step is to perform a morphometric characterisation of the geological units. Applying a data mining approach based on a forward stepwise feature selection with a SVM classifier, we then identify which terrain parameters best separate geologic units and discuss how they can be related to and interpreted with regard to soil formation and the distribution of soil units.
+
+The connection between the two important soil forming factors, parent material and topography, on the one hand, and soil as the result of theses factors on the other, is then investigated by analysing the diversity and distribution of soils for each geologic unit. This is performed from two points of view: the soil type distribution is done for profile sites per geologic unit, but also per parent material unit as attributed by the soil surveyor. This gives insight into how the surveyors' soil landscape model relates specific parent material units to specific soil types, especially when applying a morphologic-genetic classification such as the Austrian soil classification \citep{Nestroy2011}. The synthesis of this information then leads to a geologic-topographic characterisation (GTC) that describes each geologic unit. 
+
+The aim of this study is to evaluate how to make best use of available geologic and topographic information for soils survey. Hence each geologic unit is characterised with regard to topography and soil and we highlight those units were there is often dissent between soil parent material as mapped by the soil surveyor and the geologic units mapped by geologists.
+
+
+
+\section{Material and Methods}
+\subsection{Study area and data}
+\paragraph{General description}
+The study area includes the wide vale of Eppan-Kaltern, the {\"U}beretsch, located just south-west of Bozen in the Autonomous Province of Bolzano - South Tyrol, and extends in the north to the debris fan of Andrian in the Etsch Valley and the adjacent hillslope on the orographic right of the Etsch River. The western border of the study area is the steep slope of the Mendola-Ro\`en-Ridge, whereas the eastern border of the {\"U}beretsch as well as the study area is represented by the the Mitterberg, a ridge of Permic Vulcanites from which steep slopes descend to the Etsch Valley (approx. 200\,m a.s.l.). The Kalterer Lake represents the southern limits of the investigated area. The land use of the paleovalley and its debris cones as well as the Etsch valley is dominantly apple orchards and vineyards, whereas the slope of the  Mendola-Ro\`en-Ridge and the hilly outcrops of Vulcanites are covered by forests. Pastures are located mainly on till covering the flat areas of the  Mendola-Ro\`en-Ridge. 
+\subsubsection{Surficial Geology}
+A detailed  description of the geologic situation can be found in the commentary to the new geologic map of Eppan \citep{Avanzini2006}. 
+The paleovalley of {\"U}beretsch is described by \cite{Scholz2005} as a complex system of gravelly lateral moraines and large kame terraces, the result if the 'Kaltern lobe', a Pleniglacial tongue of the Etsch valley glacier. Additionally, eroded remainders of debris flows that were deposited against the recessing glacier can be found along the slopes of the Mendola-Ro\`en-Ridge, as well as recent debris flow deposits, often composed of mainly limestone and dolomite fragment. The vale bottom itself is filled with Pleistocene sediments and contains a  number of valleys carved into the gravels by fossil meltwater. At the eastern and western borders of the Pleistocene sediments, outcrops of Permic igneous Rhyolite and Lapilli-Tuff are responsible for a hilly relief, most prominently at the eastern border of the study area where the {\"U}beretsch is separated from the Etsch valley by a steep slope down from the Mitterberg with an elevation difference of approximately 400\,m.   
+The steep slopes of the Mendola-Ro\`en-Ridge are dominated by various Dolomite units, with intermittent layers of sand and siltstones. Except for the very steep Dolomite walls of the ridge, the rarely occurring outcrops of these formations are surrounded and mostly covered by Pleistocene and Holocene slope debris, and in locally flatter areas by till. 
+ 
+The study area comprises two map sheets of the new geologic map of Italy, sheet Eppan,  which covers the northern and major part of the area, as well as sheet Mezzo-Lombardo in the southern part. The sheets were published at a scale of 1\,:\,50,000 in 2007 and 2012, respectively. Mapping was performed at a scale of 1\,:\,10,000, this information was kindly provided by the Department of Geology and Building material tests of the Autonomous Province Bolzano, South Tyrol, in shapefile format and used for the analysis performed in this study.
+ 
+As means for simplification of the analysis and data harmonisation, the geologic map units were generalised to the 15 SGUs described in Table \ref{table:geounits}, that allow for comparison with the parent material units described and identified by the soil surveyors in the field.
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{p{4.5cm}cp{6cm}r}
+  \hline
+SGU & Abbrev. & short description & \% area \\ 
+  \hline
+ \raisebox{-1.5ex}{alluvial deposits} & \raisebox{-1.5ex}{AD} & Holocene and Pleistocene deposits of silt, sand and gravels &\raisebox{-1.5ex}{10.6} \\ 
+\raisebox{-1.5ex}{coarse blocky debris} & \raisebox{-1.5ex}{CBD} & Holocene and Pleistocene blocky deposits of mass movements &\raisebox{-1.5ex}{2.1} \\  
+colluvial deposits & CD & footslope deposits &\raisebox{0ex}{2.8} \\
+calcareous sedimentary rock & \raisebox{-1.5ex}{CSR} & \raisebox{-1.5ex}{limestones and dolomites} &\raisebox{-1.5ex}{7.4} \\  
+\raisebox{-1.5ex}{debris cones} & \raisebox{-1.5ex}{DC} & Holocene conic deposits from debris flows and torrents &\raisebox{-1.5ex}{14.2} \\  
+glaciolacustrine deposits & GD & (fine) sand deposits with dropstones &\raisebox{-1.5ex}{2.8} \\  
+ice-marginal sediments & IMS & clast-supported gravels &\raisebox{0ex}{0.3} \\ 
+intermediate sedimentary rock & \raisebox{-1.5ex}{ISR} & \raisebox{-1.5ex}{silt- and sandstones} &\raisebox{-1.5ex}{2.8} \\  
+\raisebox{-1.5ex}{mire deposits} &\raisebox{-1.5ex}{MrD} & Holocene and Pleistocene silt and peat deposits&\raisebox{-1.5ex}{3.9} \\ 
+\raisebox{-1.5ex}{mixed deposits} & \raisebox{-1.5ex}{MxD} & Pleistocene deposits from debris flows, torrents and avalanches &\raisebox{-1.5ex}{3.2} \\  
+\raisebox{-1.5ex}{siliceous bedrock} & \raisebox{-1.5ex}{SB} & rhyolite and rhyodazite tuffs and ignimbrites &\raisebox{-1.5ex}{7.4} \\  
+\raisebox{-1.5ex}{slope debris} & \raisebox{-1.5ex}{SD} & Holocene and Pleistocene debris on slopes&\raisebox{-1.5ex}{11.4} \\  
+sub-glacial till & SGT & compacted sub-glacial sediment &\raisebox{0ex}{18.7} \\  
+\raisebox{-0ex}{siliceous sedimentary rock} & \raisebox{-0ex}{SSR} & sandstones and siltstones &\raisebox{0ex}{1.1} \\ 
+till in general & TG & undifferentiated glacial sediment &\raisebox{0ex}{11.3} \\  
+   \hline
+\end{tabular}
+\caption{Table of the generalised parent material geounits with abbreviations and short description. Additionally, the proportion of the study area covered by each geounit is given.} 
+\label{table:geounits}
+\end{table}
+
+\subsubsection{Soils}
+\paragraph{Overview of soils in study area}
+\paragraph{Soil profile data}
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{p{2.5cm}p{3.5cm}p{7.0cm}}
+  \hline
+soil type  & possible WRB group & short description \\ 
+  \hline
+ \raisebox{-1.5ex}{Braunerde} & {Cambisol, Fluvisol, Luvisol, Umbrisol, Regosol} & with brown B-horizon owing to  weathering and re-formation of clay minerals. \\ 
+ 
+{Farb-Substratboden} & {Regosol, Alisol, Ferralsol, Luvisol, Nitisol, Arenosol} & {strong influence of color of parent material, overprinting horizon differentiation.} \\ 
+
+Feinmaterial-Rohboden & {Leptosol, Regosol, Histosol, Arenosol} &{only initial soil formation (Ai horizon) on parent material with less than 40 V.-\% coarse fraction.} \\ 
+
+Grobmaterial-Rohboden & {Leptosol, Regosol, Histosol} & {same as Feinmaterial-Rohboden but with more than 40 V.-\% coarse fraction} \\ 
+
+Haftnässe-Psuedogley & {Stagnosl, Planosol} & {influenced by shallow, capillary stagnation phases.} \\ 
+
+Kalkbraunlehm & {Cambisol, Luvisol} & {with a yellow- to redbrown cohesive B-horizon on calcareous bedrock, often fossil soils.} \\ 
+
+Kalklehm-Rendzina & {Leptosol} & {soils with a loamy organic horizon on calcareous bedrock.} \\ 
+
+\raisebox{-1.5ex}{Kolluvisol} & \raisebox{-1.5ex}{Anthrosol} & {developed from fine soil material relocated by (often human-induced) erosion.} \\ 
+
+Parabraunerde& {Luvisol, Albiluvisol, Cambisol} & {with eluvial horizon over clay-enrichened B-horizon.} \\ 
+
+Pararendzina & {Leptosol, Regosol, Umbrisol, Histosol} & {with organic horizon on carbonatic siliceous bedrock.} \\ 
+
+ \raisebox{-1.5ex}{Ranker} & {Leptosol, Umbrisol, Regosol} & {with organic horizon on siliceous bedrock.} \\ 
+
+Rendzina & {Leptosols, Histosols} & {with organic horizon on calcareous bedrock.} \\ 
+
+ \raisebox{-1.5ex}{Rigolboden} &  \raisebox{-1.5ex}{Anthrosol} & {influenced by deep, homogenizing human cultivation.} \\ 
+
+Semipodsol & {Podzol, Regosol} & {characterized by moderate podzolidation.} \\ 
+
+Textur-Substratboden & {Regosol, Arenosol, Vertisol} & {strong influence of texture of parent material, overprinting horizon differentiation.} \\ 
+   \hline
+\end{tabular}
+\caption{Table relating the Austrian soil types to WRB reference groups along with a simplified description, based on \cite{kilian2015}.} 
+\label{soilunits}
+\end{table}
+\paragraph{•}
+\subsubsection{Digital elevation data}
+\subsection{Methods}
+\subsubsection{Terrain parameters with emphasis on roughness measures}
+\citep{Riley1999}
+\subsubsection{general methodology}
+\clearpage
+\section{Results}
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}
+p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}p{0.5cm}}
+  \hline
+ & AD & CD & CSR & DC & GD & IMS & ISR & MrD & MxD & SB & SC & SD & SGT & SSR & TG \\ 
+  \hline
+AD &  & 1.96 & 0.00 & 2.19 & 1.37 & 0.23 & 0.00 & 2.29 & 1.01 & 0.53 & 0.01 & 1.18 & 31.49 & 0.02 & 1.05 \\ 
+  CD &  &  & 0.12 & 1.63 & 0.89 & 0.26 & 0.00 & 0.06 & 0.93 & 0.54 & 0.05 & 0.37 & 0.59 & 0.00 & 1.18 \\ 
+  CSR &  &  &  & 1.10 & 0.00 & 0.00 & 0.51 & 0.00 & 0.12 & 0.06 & 0.57 & 3.89 & 0.07 & 0.47 & 2.06 \\ 
+  DC &  &  &  &  & 0.23 & 0.05 & 0.07 & 0.58 & 1.62 & 0.88 & 0.79 & 2.41 & 0.72 & 0.15 & 3.05 \\ 
+  GD &  &  &  &  &  & 0.20 & 0.00 & 0.00 & 0.31 & 0.03 & 0.00 & 0.03 & 0.27 & 0.00 & 0.24 \\ 
+  IMS &  &  &  &  &  &  & 0.00 & 0.00 & 0.05 & 0.06 & 0.00 & 0.03 & 0.09 & 0.00 & 0.09 \\ 
+  ISR &  &  &  &  &  &  &  & 0.00 & 0.00 & 0.00 & 0.10 & 0.40 & 0.00 & 0.00 & 0.04 \\ 
+  MrD &  &  &  &  &  &  &  &  & 0.02 & 0.11 & 0.05 & 0.05 & 0.17 & 0.00 & 0.01 \\ 
+  MxD &  &  &  &  &  &  &  &  &  & 0.25 & 0.14 & 0.25 & 0.93 & 0.01 & 0.82 \\ 
+  SB &  &  &  &  &  &  &  &  &  &  & 0.94 & 10.18 & 2.03 & 0.41 & 4.14 \\ 
+  SC &  &  &  &  &  &  &  &  &  &  &  & 0.90 & 0.12 & 0.09 & 0.73 \\ 
+  SD &  &  &  &  &  &  &  &  &  &  &  &  & 0.79 & 0.77 & 3.80 \\ 
+  SGT &  &  &  &  &  &  &  &  &  &  &  &  &  & 0.12 & 0.70 \\ 
+  SSR &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 0.20 \\ 
+  TG &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Length in kilometers of the borders of adjacent SGUs} 
+\label{table:borderlength}
+\end{table}
+\subsection{Geomorphometric analysis of geologic map units}
+\subsection{Distribution of soils with regard to geologic units}
+
+
+\section{Discussion}
+\subsection{Differences between geologic survey and parent material from profile site descriptions}
+\subsubsection{Differences with regard to mapping purpose}
+Between the two different frameworks of mapping, geology on the one hand and soil on the other, it is important to acknowledge the main focus of attention of each branch of research. There may exist a difference with regard to how pronounced a certain feature or characteristic must be in order to considered for mapping. 
+
+A typical example is...
+
+
+\subsubsection{Nomenclatural differences and overlaping classes}
+
+
+\subsection{Pedologic interpretation of terrain parameters that best seperate the geological units}
+
+\subsection{Distribution of soil types with regard to geologic unit as well as parent material unit}
+
+\subsection{Influence of the Alpine environment on interpretability of geologic units as parent material units}
+\subsubsection{High relief areas and multilayering}
+Are there thresholds regarding terrain parameters?
+\subsubsection{thin cover layers of till - an essential new parentmaterial unit?}
+
+\subsubsection{Is the morphodynamic background of deposits a necessary distinctive attribute from a pedological point of view?}
+In the study are, mixed deposits from mass movement and torrents have the same components as till or hillside debris, which themselves are often the same...
+
+\section{Conclusion}
+We propose that future surveys focus increasingly on these units with greater uncertainty with regard to soil parent material to strengthen understanding of the pedologic relevance of these units. By performing a GTC prior to future detailed field soil surveys, the surveyor can make best use of available information and concentrate the time and money consuming task of field work, involving soil pits and auguring, on units identified as highly variable and uncertain regarding soils. This information can be additionally helpful for devising future sampling procedures and also for consideration when attempting to regionalise point information
+
+\section*{References}
+\bibliography{P2.bib}
+
+\end{document}
