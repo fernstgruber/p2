@@ -13,7 +13,7 @@
 "lodgement till"	"LT"	"compacted sub-glacial sediment"	"Grundmoraene"	8
 "mire deposits"	"MrD"	"Holocene and Pleistocene silt and peat deposits"	"Moorablagerung"	12
 "mixed deposits"	"MxD"	"Pleistocene deposits from debris flows and gulleys"	"gemischte Ablagerung"	17
-"siliceous bedrock"	"SB"	"rhyolite and rhyodazite tuffs and ignimbrites"	"silikatisches Festgestein"	20
+"siliceous bedrock"	"SB"	"rhyolite and rhyodazite tuffs and ignimbrites"	"silikatisches Festgestein"	21
 "slope debris"	"SD"	"Holocene and Pleistocene debris on slopes"	"Hangschutt"	9
 "silicious sedimentary rock"	"SSR"	"sandstones and siltstones"	"silikatisches Sedimentgestein"	22
 "till in general"	"TG"	"undifferentiated glacial sediment"	"Moraene undifferenziert"	13
