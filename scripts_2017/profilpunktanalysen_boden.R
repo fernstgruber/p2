@@ -60,9 +60,9 @@ levels(boden$geomorphologie_kartiert) %in% levels(boden$geomorphologie_beschreib
 summary(boden$geomorphologie_kartiert)
 
 geomorphologieundboden <- boden[c("ID","geomorphologie_kartiert","geomorphologie_beschreibung")]
-legende_kartierer_gegen_karte <- read.table("legede_kartierer_gegen_karte.txt",sep="\t",header=T)
-geomorphologieundboden <- merge(geomorphologieundboden,legende_kartierer_gegen_karte,by.x="geomorphologie_kartiert",by.y="geomorphologieklasse",all.x=T)
-names(geomorphologieundboden) <- c("geomorphologie_kartiert","ID","geomorphologie_beschreibung","geomorphologieklasse_kurz_kartiert")
-geomorphologieundboden <- merge(geomorphologieundboden,legende_kartierer_gegen_karte,by.x="geomorphologie_beschreibung",by.y="geomorphologieklasse",all.x=T)
-names(geomorphologieundboden) <- c("geomorphologie_beschreibung","geomorphologie_kartiert","ID","geomorphologieklasse_kurz_kartiert","geomorphologieklasse_kurz_beschreibung" )
-kartierergegenkarte<-  as.data.frame.matrix(table(geomorphologieundboden$geomorphologieklasse_kurz_kartiert,geomorphologieundboden$geomorphologieklasse_kurz_beschreibung))
+#legende_kartierer_gegen_karte <- read.table("legede_kartierer_gegen_karte.txt",sep="\t",header=T)
+geomorphologieundboden <- merge(geomorphologieundboden,geolegendeng,by.x="geomorphologie_kartiert",by.y="geomorphologie_deutsch",all.x=T)
+names(geomorphologieundboden) <- c("geomorphologie_kartiert","ID","geomorphologie_beschreibung","geounit_kart","geomorphologieklasse_kurz_kartiert","short.description_kart","code_kart")
+geomorphologieundboden <- merge(geomorphologieundboden,geolegendeng,by.x="geomorphologie_beschreibung",by.y="geomorphologie_deutsch",all.x=T)
+names(geomorphologieundboden) <- c("geomorphologie_beschreibung","geomorphologie_kartiert","ID","geounit_kart","geomorphologieklasse_kurz_kartiert","short.description_kart","code_kart","geounit_gk","geomorphologieklasse_kurz_gk","short.description_gk","code_gk")
+kartierergegenkarte<-  as.data.frame.matrix(table(geomorphologieundboden$geomorphologieklasse_kurz_kartiert,geomorphologieundboden$geomorphologieklasse_kurz_gk))
