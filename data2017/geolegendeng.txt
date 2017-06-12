@@ -1,4 +1,4 @@
-"geounit"	"Abbrev."	"short description"	"geomorphologie_beschreibung"	"code"
+"geounit"	"Abbrev."	"short description"	"geomorphologie_deutsch"	"code"
 "alluvial deposits"	"AD"	"Holocene and Pleistocene deposits of silt, sand and gravels"	"Alluviale Ablagerung"	1
 "anthropogene deposits"	"Ant"	"landfills and embankments"	"Anthropogen"	3
 "coarse blocky debris"	"CBD"	"Holocene and Pleistocene blocky deposits"	"Blockschutt"	5
