@@ -1,0 +1,56 @@
+ID	geomorphologie_kart_rebo	AGM	
+1_U	Moraene undifferenziert	MoSi	
+2_U	Moraene undifferenziert	MoSi	
+3_U	Alluviale Ablagerung	KiSi	
+4_U	gemischte Kegel	KiMi	
+5_U	Moraene undifferenziert	MoSi	
+6_U	Blockschutt	BlSi	
+7_U	Alluviale Ablagerung	KiSi	
+8_U	Alluviale Ablagerung	KiSi	
+9_U	gemischte Ablagerung	HaMi	
+10_U	Hangschutt	HaKa	
+11_U	gemischte Ablagerung		
+12_U	Kolluvium		silikatisches Sedimentgestein
+13_U	Moraene undifferenziert	MoSi	silikatisches Sedimentgestein
+16_U	Glaziolakustrine Ablagerung	ToSr	
+17_U	silikatisches Festgestein	SiSr	
+18_U	gemischte Kegel	KiKa	
+19_U	gemischte Kegel	HaKa	
+20_U	Alluviale Ablagerung	KiMi	
+21_U	Moraene undifferenziert	MoSi	
+22_U	silikatisches Festgestein	SiSr	
+23_U	Glaziolakustrine Ablagerung	ToSr	
+24_U	Glaziolakustrine Ablagerung	ToSr	
+25_U	Moraene undifferenziert	MoSi	
+26_U	Moraene undifferenziert	MoSi	
+27_U	gemischte Ablagerung	KiK+	oder HaKa?
+28_U	gemischte Ablagerung	KiMi	
+29_U	Moraene undifferenziert	MoSi	
+30_U	Moraene undifferenziert	MoSi	
+31_U	Moraene undifferenziert	MoSi	
+32_U	gemischte Ablagerung	KiSi	
+33_U	Kolluvium		
+34_U	Glaziolakustrine Ablagerung		
+35_U	gemischte Ablagerung	KiSi	oder eh Mosi
+36_U	Moraene undifferenziert	MoSi	
+37_U	Moraene undifferenziert	MoSi	
+38_U	Moraene undifferenziert	MoSi	
+39_U	Moraene undifferenziert	MoSi	
+40_U	Blockschutt	BlSi	
+41_U	Moraene undifferenziert	MoSi	
+42_U	Moraene undifferenziert	MoSi	
+43_T	gemischte Ablagerung	KiSi	
+44_T	gemischte Kegel	KiMi	
+45_T	Blockschutt	BlKa	
+46_T	Moraene undifferenziert	MoSi	
+47_T	gemischte Kegel	KiMi	
+48_T	Hangschutt	HaKa	
+49_T	Hangschutt	HaKa	
+50_T	gemischte Ablagerung	KiMi	oder MoMi
+51_T	Moraene undifferenziert	MoMi	
+52_T	Hangschutt	HaKa	
+53_T	Blockschutt	BlKa	
+55_T	gemischte Ablagerung	KiMi	oder HaMi
+56_T	silikatisches Sedimentgestein	KlSi	
+57_T	Moraene undifferenziert	MoSi	
+58_T	Hangschutt	HaSi	

@@ -1,0 +1,40 @@
+---
+title: "JEDERGEGENJEDEN GEOMORPH"
+author: "fabian gruber"
+date: "April 24, 2017"
+output: html_document
+---
+
+Die Erebgenisse der neuesten Berechnungen (OSTERN 2017)
+
+
+```{r,include=FALSE}
+source("/media/fabs/Volume/01_PAPERZEUG/fabians_and_rossiters_functions.R")
+
+```
+
+##ALL TERRAIN 
+```{r, echo=FALSE}
+evaluateforwardCV_anyerror(mypath="/media/fabs/Volume/01_PAPERZEUG/paper2_lenny/data_paper2/data2017/svm_fw_5fold_10p_geomorphologie_beschreibung_allterraincols_200pg",kk = 1:5,endround = 10,error = "cverror",geheim="geheimerprederror",yrange=c(0,1))
+```
+
+##LOCAL TERRAIN 
+```{r, echo=FALSE}
+evaluateforwardCV_anyerror(mypath="/media/fabs/Volume/01_PAPERZEUG/paper2_lenny/data_paper2/data2017/svm_fw_5fold_10p_geomorphologie_beschreibung_localterrain_200pg/",kk = 1:5,endround = 10,error = "cverror",geheim="geheimerprederror",yrange=c(0,1))
+```
+
+##REGIONAL TERRAIN 
+```{r, echo=FALSE}
+evaluateforwardCV_anyerror(mypath="/media/fabs/Volume/01_PAPERZEUG/paper2_lenny/data_paper2/data2017/svm_fw_5fold_10p_geomorphologie_beschreibung_",kk = 1:5,endround = 10,error = "cverror",geheim="geheimerprederror",yrange=c(0,1))
+```
+
+##ROUGHNESS
+```{r, echo=FALSE}
+evaluateforwardCV_anyerror(mypath="/media/fabs/Volume/01_PAPERZEUG/paper2_lenny/data_paper2/data2017/svm_fw_5fold_10p_geomorphologie_beschreibung_roughnesscols_200pg/",kk = 1:5,endround = 10,error = "cverror",geheim="geheimerprederror",yrange=c(0,1))
+```
+
+##VHR ROUGHNESS
+```{r, echo=FALSE}
+evaluateforwardCV_anyerror(mypath="/media/fabs/Volume/01_PAPERZEUG/paper2_lenny/data_paper2/data2017/svm_fw_5fold_10p_geomorphologie_beschreibung_vhrcols_200pg/",kk = 1:5,endround = 10,error = "cverror",geheim="geheimerprederror",yrange=c(0,1))
+```
+

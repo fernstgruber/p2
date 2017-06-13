@@ -1,0 +1,383 @@
+ID	geomorphologie_beschreibung	Lithologie	geologie_text	BODENTYP_orig	KLASSE	TYP	SUBTYP	VARIETÄT	VARIETÄT2	humusform_orig	gebiet1_parentmaterial_numerogis
+1	Grundmoraene	Grundmoraene		rendollic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				576
+10	gemischte Ablagerung	gemischte Ablagerung		typic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				642
+10_U	Hangschutt	Hangschutt		Moder-Rendzina, kolluvial beeinflusst	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina	kolluvial beeinflußt		Rohhumusartiger Moder/ eher typischer Moder	193
+11	gemischte Ablagerung	gemischte Ablagerung		typic eutrochrept	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt			642
+11_U	karbonatisches Festgestein	Kalke		Carbonathaltige Braunerde, kolluvial gestört	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	kolluvial beeinflußt		Mull	379
+12	Alluviale Ablagerung	Alluviale Ablagerung		typic udifluvent							585
+12_U	karbonatisches Festgestein	Kalke	Karbonatgehalt unerschiedlich hoch	Kolluvisol, Entwicklung zur Moder-Pararendzina	UMGELAGERTE BÖDEN	Kolluvisol	carbonathaltiger Kolluvisol			Mullartiger Moder	379
+13	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		typic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				643
+13_U	silikatisches Festgestein	Rhyolithe		Farb-Substratboden aus Grödner-Sandstein	SUBSTRATBÖDEN	Farb-Substratboden	Farb-Substratboden	aus Grödner-Sandstein		Typischer Moder	614
+14	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	wirklichrigolt?			643
+14_U	Moraene undifferenziert	Moraene undifferenziert		Typische Braunerde, carbonatfrei, kolluvial gestört?	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei	kolluvial beeinflußt	Rhizomull	191
+15	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	wirklichrigolt?			643
+16	Moraene undifferenziert	Moraene undifferenziert		typic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				191
+16_U	silikatisches Festgestein	Rhyolithe		Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Rohumusartiger Moder	614
+17	Moraene undifferenziert	Moraene undifferenziert		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				191
+17_U	silikatisches Festgestein	Rhyolithe		Fels-Auflagehumusboden über Silikatgestein 	TERRESTRISCHE HUMUSBÖDEN	Ranker	Carbonatfreier Fels-Auflagehumusboden			Rohhumus	614
+18	Grundmoraene	Grundmoraene		arenic hapludalf	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert, wirklichrigolt?			576
+18_U	gemischte Kegel	gemischte Kegel		Moder-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Rohhumusartiger Moder/ Typ. Moder	604
+19	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert, rigolt, carbonatfrei			576
+19_U	Hangschutt	Hangschutt		Kalklehm-Rendzina, kolluvial beeinflusst 	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina	kolluvial beeinflußt		Mullartiger Moder	3492
+1_U	silikatisches Festgestein	Rhyolithe		Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mullartiger Moder	614
+2	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				604
+20	Grundmoraene	Grundmoraene			UMGELAGERTE BÖDEN	Schüttungsboden	Planieboden				576
+20_U	Alluviale Ablagerung	Alluviale Ablagerung		Carbonathaltiger Kolluvisol; Entwicklung in Richtung Braunerde	UMGELAGERTE BÖDEN	Kolluvisol	carbonathaltiger Kolluvisol			Mull	640
+21	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden	lessiviert			576
+21_U	silikatisches Festgestein	Rhyolithe		Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	614
+22	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				576
+22_U	silikatisches Festgestein	Rhyolithe		Typischer Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Typischer Ranker			Rhizomoder	614
+23	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			576
+23_U	silikatisches Festgestein	Rhyolithe	Feinsediment, fluviatile Sande und Kiese, Porphyrzersatz	Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Moder	614
+24	Grundmoraene	Grundmoraene		dystric fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden				576
+24_U	Moorablagerung	Moorablagerung	Feinsediment	Haftnässe-Pseudogley	PSEUDOGLEYE	Haftnässe-Pseudogley	Haftnässe-Pseudogley			Hydromorpher Mullartiger Moder	382
+25	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			576
+25_U	silikatisches Festgestein	Rhyolithe	metamorphe Gesteine; weit gestuftes Skelett (Moräne, Porphy, u.a), hoher Schluffgehalt (Moräne)	Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	614
+26	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden	lessiviert			576
+26_U	silikatisches Festgestein	Rhyolithe		Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Moder	614
+27	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden				576
+27_U	Moraene undifferenziert	Moraene undifferenziert		Moder-Pararendzina	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Moder-Pararendzina			Moder	191
+28	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			576
+28_U	Grundmoraene	Grundmoraene	geringer Kalkgehalt, gemischte Skelettformen (kantig und gerundet), unterschiedliche Mineralogie des Skelettes?	Kolluvisol; Entwicklung Richtung Braunerde 	UMGELAGERTE BÖDEN	Kolluvisol	Kolluvisol			Mullartiger Moder	576
+29	Alluviale Ablagerung	Alluviale Ablagerung		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden				385
+29_U	silikatisches Festgestein	Rhyolithe		Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mullartiger Moder	614
+2_U	Moraene undifferenziert	Moraene undifferenziert	laut Karte: undifferenzierte Moräne, selbst kartiert: Moränenmaterial	Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Moder	191
+3	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				604
+30	Grundmoraene	Grundmoraene		typic hapludalf	BRAUNERDEN	Braunerde	Typische Braunerde	lessiviert, rigolt, carbonatfrei			576
+30_U	silikatisches Festgestein	Rhyolithe	in ersten cmtern viel großes, flaches, kantiges Skelett, nach unten hin kanten gerundeter und auch ganz rund	Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	614
+31	Grundmoraene	Grundmoraene		typic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden				576
+31_U	silikatisches Festgestein	Rhyolithe	in oberen dm vereinzelt auch gerundetes Skelett; unterschiedliche Mineralogie des Skelettes	Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Typischer Moder	614
+32	gemischte Ablagerung	gemischte Ablagerung		typic udorthent							2125
+32_U	silikatisches Festgestein	Rhyolithe	Boden aus Anstehendem entwickelt oder aus den Lockersedimenten? --> Skelettverteilung; Unterschiedliche Mineralogie des Skelettes; Porphyr erscheint grauer - Grund für Farbe im Profil?	Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mullartiger Moder	614
+33	gemischte Kegel	gemischte Kegel		eutrochreptic rendoll	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt			604
+33_U	silikatisches Festgestein	Rhyolithe	steine und Blöcke	Brauner Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Typischer Ranker	braun		Mullartiger Moder	614
+34	Moraene undifferenziert	Moraene undifferenziert		typic hapludalf	BRAUNERDEN	Braunerde	Typische Braunerde	lessiviert, rigolt, carbonatfrei			191
+34_U	Moorablagerung	Moorablagerung	Feinsediment, fluviatile Sande und Kiese, Porphyrzersatz	Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	382
+35	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		typic eutrochrept	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt?			643
+35_U	Grundmoraene	Grundmoraene	Porphyr verwittert in Sand? - auch hier erste Anzeichen dafür; überwiegend gerundetes Skelett; gemischte Mineralogie (u.a. grünlich schiefriges wie bei U_ME_L28	Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mullartiger Moder	576
+36	gemischte Kegel	gemischte Kegel		rendollic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				604
+36_U	Grundmoraene	Grundmoraene	insgesamt eher kantengerundetes Skelett	Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	576
+37	Grundmoraene	Grundmoraene		typic hapludalf	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			576
+37_U	Grundmoraene	Grundmoraene	in etwa 50 cm viel Gestein mit Glimmer	Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	576
+38	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			643
+38_U	Grundmoraene	Grundmoraene	fast durchweg gerundetes Skelett	Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Typischer Mull	576
+39	Alluviale Ablagerung	Alluviale Ablagerung		typic udorthent	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				640
+39_U	silikatisches Festgestein	Rhyolithe	Moräne auf Porphyr, Ab etwa 50cm wieder gerundetes Skelett	Podsolige Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	614
+3_U	Alluviale Ablagerung	Alluviale Ablagerung	laut Karte:         Aufschluss: Moräne auf fluviatilen Schottern auf fluviatilen Sanden	Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Xeromorpher 	640
+4	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				604
+40	gemischte Kegel	gemischte Kegel		rendollic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				604
+40_U	silikatisches Festgestein	Rhyolithe		Typische Braunerde, carbonatfrei, kolluvial geprägt	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei	kolluvial beeinflußt	Mullartiger Moder	614
+41	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			576
+41_U	silikatisches Festgestein	Rhyolithe	Moräne auf Porphyr 	Semi-Podsol	PODSOLE	Semipodsol	Semipodsol			Mullartiger Moder	614
+42	gemischte Kegel	gemischte Kegel		typic eutrochrept	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt			604
+4249	Hangschutt	Hangschutt		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				193
+4250	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				614
+4251	Grundmoraene	Grundmoraene		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				576
+4252	Moraene undifferenziert	Moraene undifferenziert		550 (braunlehm)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				191
+4253	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				614
+4271	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				192
+4272	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				614
+42_U	Grundmoraene	Grundmoraene		Podsolige Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Podsolige Braunerde	carbonatfrei		Mullartiger Moder	576
+43	gemischte Kegel	gemischte Kegel		typic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				604
+43_T	silikatisches Festgestein	Rhyolithe	Hangschutt -> Sedimentgestein, sehr heterogene Petrographie: 40 % Dolomit, 10 Grödener Sandtsein (Kann das sein?), 40 % Mergel/Schluffstein, 10 % Kalk; Werfener Schichten	Carbonathaltige Braunerde, kolluvial beeinflusst	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	kolluvial beeinflußt		Mullartiger Moder	574
+44	Alluviale Ablagerung	Alluviale Ablagerung		typic udorthent	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				640
+44_T	gemischte Kegel	gemischte Kegel	60% Dolomit, 40% Porphyr	Carbonathaltige Braunerde	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde			Mullartiger Moder	604
+45	Kolluvium	Kolluvium		typic hapludalf	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			200
+45_T	Blockschutt	Blockschutt	Schutt aus Dolomit	Rendzina, kolluvial beeinflusst	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Mull-Rendzina	kolluvial beeinflußt		Mull	362
+46	Kolluvium	Kolluvium		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden				200
+46_T	silikatisches Festgestein	Rhyolithe	Hangschutt	Typische Braunerde, carbonatfrei	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mull	573
+47	Grundmoraene	Grundmoraene		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			576
+47_T	gemischte Kegel	gemischte Kegel	gemischt	Carbonathaltiger Rigolboden	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden			Mull	604
+48	Alluviale Ablagerung	Alluviale Ablagerung		typic udorthent	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei, rigolt			1890
+48_T	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine	Kalkstein dominierend, Kalk, Werfener Formation;in H2 + H4 zum Teil kleines gerundetes Skelett	Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Mullartiger Moder	364
+49	Grundmoraene	Grundmoraene		typic udorthent	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				576
+49_T	Hangschutt	Hangschutt	Kalkstein dominierend, Dolomit, Sandstein? (eher nicht) (gut angewittert), Werfener Formation (rot)	Kalklehm-Rendzina, kolluvial beeinflusst 	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina	kolluvial beeinflußt		Rohhumusartiger Moder	193
+4_U	gemischte Kegel	gemischte Kegel	laut karte:         Aufschluss: kantiger Kalkgesteinsschutt	Carbonathaltiger Rigolboden	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden			Mull	371
+5	Kolluvium	Kolluvium		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				200
+50	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				604
+50_T	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine	oben Grödener Sandstein (eher Werferner Schicht), ab  I Cv Porphyr, Gneis, Kalk	Carbonatfreier Kolluvisol; Entwicklung zur Braunerde	UMGELAGERTE BÖDEN	Kolluvisol	Carbonatfreier Kolluvisol			Rhizomull	364
+51	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt			604
+51_T	Moraene undifferenziert	Moraene undifferenziert	Sandstein? (ganz klein, immer rot), Gneis?, unten gelbe und rote (Tone) aus Werfener Formation	Carbonatfreier Kolluvisol; Entwicklung zur Braunerde	UMGELAGERTE BÖDEN	Kolluvisol	Carbonatfreier Kolluvisol			Moder	191
+52	gemischte Kegel	gemischte Kegel		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden				604
+52_T	Hangschutt	Hangschutt	Schutthalde, Dolomit dominierend, Kalkstein	Moder-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Rohhumusartiger Moder	193
+53	Kolluvium	Kolluvium		dystric eutrochrept	BRAUNERDEN	Braunerde	Typische Braunerde	Carbonatfrei, ?rigolt			200
+53_T	Blockschutt	Blockschutt	Kalkstein dominierend, Gneis?, Dolomit	Moder-Rendzina, verbraunt	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina	verbraunt		Rohumusratiger Moder	362
+54	gemischte Kegel	gemischte Kegel		fluventic hapludoll	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt			604
+54_T	Moraene undifferenziert	Moraene undifferenziert	alles --Y Rohr in 50 cm Tiefe, anthropogene veränderung	Braunerde	BRAUNERDEN	Braunerde	Typische Braunerde				191
+55	gemischte Kegel	gemischte Kegel		typic udorthent	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden				604
+55_T	Moraene undifferenziert	Moraene undifferenziert	Dolomit (ab Block, aber v.a. unten), Kalkstein (v.a. unten), Porphyr (weiter unten), Gneis (stark verwittert, ganz unten), gelbe Tonsteine (viel verschiedenes Kristalines)	Carbonatfreier Kolluvisol; Entwicklung zur Braunerde	UMGELAGERTE BÖDEN	Kolluvisol	Carbonatfreier Kolluvisol			Rhizomoder	191
+56_T	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine	Porphyr, Kalkstein, Gneis, Werfener Formation (gelb, rot), Quarz	Carbonatfreier Kolluvisol; Entwicklung zur Braunerde	UMGELAGERTE BÖDEN	Kolluvisol	Carbonatfreier Kolluvisol				364
+57	gemischte Ablagerung	gemischte Ablagerung		entic hapludoll	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				642
+57_T	Blockschutt	Blockschutt	Porphyr	Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mullartiger Moder	362
+58	Moraene undifferenziert	Moraene undifferenziert		dystric eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonatfreier Rigolboden	lessiviert			191
+58_T	silikatisches Festgestein	Rhyolithe	Skelett in Auflage (Steine, Grobgrus)	Brauner? Typischer Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Typischer Ranker	braun		Moder/ Rohumusartiger Moder?	573
+59	Moraene undifferenziert	Moraene undifferenziert		rendollic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				191
+59_T	Hangschutt	Hangschutt									193
+5_U	Grundmoraene	Grundmoraene		Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mull	576
+6	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt			604
+6_U	Rutschmasse	Rutschmasse		Carbonatfreier Fels-Auflagehumusboden und Brauner Typischer Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Carbonatfreier Fels-Auflagehumusboden			Rohhumus und Moder	811
+7	gemischte Kegel	gemischte Kegel		rendollic eutrochrept	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	rigolt			604
+7_U	Grundmoraene	Grundmoraene		Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mull	576
+8	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden				371
+8_U	Alluviale Ablagerung	Alluviale Ablagerung		Typische Braunerde, carbonatfrei 	BRAUNERDEN	Braunerde	Typische Braunerde	carbonatfrei		Mull	640
+9	gemischte Kegel	gemischte Kegel		fluventic eutrochrept	UMGELAGERTE BÖDEN	Rigolboden	Carbonathaltiger Rigolboden	wirklichrigolt?			371
+9_U	Moraene undifferenziert	Moraene undifferenziert		Typischer Ranker, kolluvial beeinflusst	TERRESTRISCHE HUMUSBÖDEN	Ranker	Typischer Ranker	kolluvial beeinflußt		Typischer Mull	191
+12853	Moraene undifferenziert	Moraene undifferenziert		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde			Typischer Moder	191
+12854	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				193
+12857	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				193
+12866	Blockschutt	Blockschutt		Kalkbraunlehm (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				362
+12867	karbonatisches Festgestein	Dolomite		Braunerde tonig (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				575
+12868	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Mull-Kalklehm-Rendzina				193
+12882	Hangschutt	Hangschutt		Kalkbraunlehm (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				193
+12883	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				193
+12884	karbonatisches Festgestein	Dolomite		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina				575
+12885	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Rohhumus	548
+12886	Moraene undifferenziert	Moraene undifferenziert		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Rohhumus	191
+12887	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Rohhumus	193
+12888	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde			Typischer Moder	3492
+12889	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Typischer Rohhumus	193
+12890	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Rohhumusartiger Moder	193
+12891	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Typischer Rohhumus	680
+12910	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Typischer Moder	372
+12911	gemischte Ablagerung	gemischte Ablagerung		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Rohhumusartiger Moder	3491
+12912	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde tonig (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig			Typischer Moder	378
+12913	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Typischer Moder	3492
+12914	gemischte Ablagerung	gemischte Ablagerung		Kalkbraunlehm (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm			Moderartiger (F-)Mull	3491
+12915	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Typischer Moder	372
+12957	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde			Typischer Moder	191
+12958	gemischte Kegel	gemischte Kegel		Braunerde tonig (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig			Typischer Mull	371
+12959	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Moder-Kalklehm-Rendzina			Mullartiger Moder	193
+12960	Alluviale Ablagerung	Alluviale Ablagerung		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde			Typischer Mull	640
+12961	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde			Typischer Mull	191
+12962	Hangschutt	Hangschutt		Braunerde podsolig	BRAUNERDEN	Braunerde	Podsolige Braunerde			Typischer Moder	5493
+12963	Grundmoraene	Grundmoraene		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde			Mullartiger Moder	576
+12983	Blockschutt	Blockschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina			Tangel-(Kalk-)Rohhumus	362
+12985	gemischte Kegel	gemischte Kegel		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Mull-Rendzina			Moderartiger (F-)Mull	371
+12986	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde			Moderartiger (F-)Mull	643
+12987	Alluviale Ablagerung	Alluviale Ablagerung		(Para)braunerde basenreich leicht	BRAUNERDEN	Braunerde	Typische Braunerde			Moderartiger (F-)Mull	640
+12988	Grundmoraene	Grundmoraene		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde			Typischer Mull	576
+14101	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				378
+14154	Blockschutt	Blockschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				362
+14175	Blockschutt	Blockschutt		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				362
+14176	karbonatisches Festgestein	Dolomite		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				575
+14177	Moraene undifferenziert	Moraene undifferenziert		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				191
+15401	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				372
+15402	gemischte Ablagerung	gemischte Ablagerung		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3491
+15403	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+15404	gemischte Kegel	gemischte Kegel		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				371
+15405	Moraene undifferenziert	Moraene undifferenziert		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				191
+15450	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+15451	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+15452	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+15453	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				3492
+15475	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+15476	gemischte Ablagerung	gemischte Ablagerung		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				3491
+15477	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				372
+15580	Glaziolakustrine Ablagerung	Lakustrine Ablagerung		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde				643
+15581	Alluviale Ablagerung	Alluviale Ablagerung		(Para)Braunerde basenreich leicht	BRAUNERDEN	Braunerde	Typische Braunerde				640
+16201	Moraene undifferenziert	Moraene undifferenziert		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				191
+16202	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+16203	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+16204	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				193
+16250	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+16251	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+16253	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				680
+16301	Alluviale Ablagerung	Alluviale Ablagerung		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde				640
+16302	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde				191
+16303	silikatisches Festgestein	Rhyolithe		Braunerde podsolig	BRAUNERDEN	Braunerde	Podsolige Braunerde				614
+16304	Grundmoraene	Grundmoraene		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde				576
+16351	Grundmoraene	Grundmoraene		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde				576
+bd01	Hangschutt	Hangschutt		Moderrendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				3492
+bd02	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+bd03	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+bd04	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				3492
+bd05	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				3492
+bd06	Hangschutt	Hangschutt		Feinmaterial-Rohboden carbonathaltig	TERRESTRISCHE ROHBÖDEN	Feinmaterial-Rohboden	Carbonathaltiger Feinmaterial-Rohboden				3492
+bd07	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				193
+bd09	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				364
+bd10	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				193
+bd11	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				3492
+bd13	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				3492
+bd15	Hangschutt	Hangschutt		Pararendsina-Pelosol	TERRESTRISCHE HUMUSBÖDEN	Textur-Substratboden	Textur-Substratboden				3492
+bd16	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+bd17	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+bd18	gemischte Kegel	gemischte Kegel		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				371
+bd19	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+bd20	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+be01	gemischte Kegel	gemischte Kegel		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				371
+be02	Moraene undifferenziert	Moraene undifferenziert		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				191
+be03	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde				191
+be04	karbonatisches Festgestein	Kalke		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				376
+be05	karbonatisches Festgestein	Kalke		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				376
+f03	Blockschutt	Blockschutt		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				362
+f07	Hangschutt	Hangschutt		Moderrendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				193
+g01	Blockschutt	Blockschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3493
+gr01	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				571
+gr02	silikatisches Festgestein	Rhyolithe		Braunerde-Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker	brauner			571
+gr03	Hangschutt	Hangschutt		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				193
+gr04	Moraene undifferenziert	Moraene undifferenziert		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				191
+gr05	Hangschutt	Hangschutt		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				193
+gr06	Hangschutt	Hangschutt		Braunerde-Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker	brauner			193
+gr07	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				574
+gr08	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde				191
+gr09	karbonatisches Festgestein	Dolomite		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				548
+hd01	Grundmoraene	Grundmoraene		Kalkbraunlehm (Terra fusca relikt.)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm	relikter		b	576
+hd02	gemischte Kegel	gemischte Kegel		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	carbonatfrei			604
+hd03	Grundmoraene	Grundmoraene		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	carbonatfrei			576
+hd06	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				3492
+hd07	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+hd08	karbonatisches Festgestein	Dolomite		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				377
+hd09	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				377
+hd10	gemischte Kegel	gemischte Kegel		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				371
+hd12	gemischtes Sedimentgestein	Pelite, Siltite und Sandsteine		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				654
+hd13	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+hd14	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+hd15	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+hd16	gemischte Kegel	gemischte Kegel		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				371
+hd17	Moraene undifferenziert	Moraene undifferenziert		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				191
+hd18	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+hd19	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+hd20	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+hd21	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				193
+he01	Grundmoraene	Grundmoraene		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			576
+hf01	Moraene undifferenziert	Moraene undifferenziert		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		191
+hf02	Hangschutt	Hangschutt		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			193
+hf03	Hangschutt	Hangschutt		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			193
+hf04	Moraene undifferenziert	Moraene undifferenziert		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			191
+hf05	Moraene undifferenziert	Moraene undifferenziert		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				191
+hg01	Hangschutt	Hangschutt		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			193
+hg02	Moraene undifferenziert	Moraene undifferenziert		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				191
+hg03	karbonatisches Festgestein	Dolomite		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				575
+hg04	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				193
+hg05	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	carbonathaltig			3492
+hg06	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+hg07	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				3492
+hg08	gemischte Kegel	gemischte Kegel		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				604
+hg09	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	carbonathaltig			191
+hh01	gemischte Kegel	gemischte Kegel		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				371
+hh02	karbonatisches Festgestein	Dolomite		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			548
+hh03	karbonatisches Festgestein	Dolomite		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			548
+hh04	Moraene undifferenziert	Moraene undifferenziert		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				191
+hh05	gemischte Kegel	gemischte Kegel		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				371
+hh06	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				548
+hh07	karbonatisches Festgestein	Dolomite		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	carbonathaltig			548
+hh08	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				3492
+hh09	karbonatisches Festgestein	Dolomite		Kalkbraunlehm (Terra fusca relikt.)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm	relikter			548
+hh10	karbonatisches Festgestein	Dolomite		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				548
+hh11	Moraene undifferenziert	Moraene undifferenziert		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				191
+hh12	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+hh14	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				575
+hh15	karbonatisches Festgestein	Dolomite		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				575
+hh16	karbonatisches Festgestein	Kalke		Braunerde carbonathaltig	TERRESTRISCHE HUMUSBÖDEN	Braunerde	Carbonathaltige Braunerde	carbonathaltig			374
+hh17	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+hi01	gemischtes Sedimentgestein	Pelite, Siltite und Sandsteine		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				656
+hi02	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				193
+hi03	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde	carbonathaltig			3492
+hi04	Moraene undifferenziert	Moraene undifferenziert		Pararendsina-Pelosol	SUBSTRATBÖDEN	Textur-Substratboden	Textur-Substratboden				191
+hj02	silikatisches Festgestein	Rhyolithe		Grobmaterial-Rohboden carbonathaltig	TERRESTRISCHE ROHBÖDEN	Grobmaterial-Rohboden	Carbonathaltiger Grobmaterial-Rohboden				192
+hj03	Moraene undifferenziert	Moraene undifferenziert		Braunerde-Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker	brauner			191
+hj04	Moraene undifferenziert	Moraene undifferenziert		Braunerde podsolig	BRAUNERDEN	Braunerde	Podsolige Braunerde				191
+hj05	Hangschutt	Hangschutt		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			5492
+hj06	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			192
+hj07	silikatisches Festgestein	Rhyolithe		Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker				192
+hk01	Hangschutt	Hangschutt		Braunerde-Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker	brauner			5493
+hk02	Hangschutt	Hangschutt		Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker				5493
+hk04	Hangschutt	Hangschutt		Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker				5493
+hl03	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			614
+hl04	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			614
+hl05	silikatisches Festgestein	Rhyolithe		Braunerde-Ranker	TERRESTRISCHE HUMUSBÖDEN	Ranker	Ranker	brauner			614
+hl06	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			614
+hl08	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			614
+j07	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde	basenreich			191
+k03	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				653
+k05	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				193
+k06	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				193
+l01	Grundmoraene	Grundmoraene		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			576
+l03	Grundmoraene	Grundmoraene		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			576
+l05	Moraene undifferenziert	Moraene undifferenziert		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			191
+l07	Grundmoraene	Grundmoraene		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			576
+l08	Grundmoraene	Grundmoraene		Braunerde auf Festgestein leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Festgestein	leicht		576
+l09	Moraene undifferenziert	Moraene undifferenziert		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		191
+l10	Moraene undifferenziert	Moraene undifferenziert		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		191
+lf01	Moraene undifferenziert	Moraene undifferenziert		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			191
+lf02	Hangschutt	Hangschutt		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			193
+lf03	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				193
+lf04	Moraene undifferenziert	Moraene undifferenziert		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				191
+lf05	Moraene undifferenziert	Moraene undifferenziert		Pararendsina-Pelosol	SUBSTRATBÖDEN	Textur-Substratboden	Textur-Substratboden				191
+lf06	Moraene undifferenziert	Moraene undifferenziert		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			191
+lf07	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Parabraunerde karbonathaltig	BRAUNERDEN	Parabraunerde	Parabraunerde	carbonathaltig			375
+lf08	karbonatisches Festgestein	Kalke		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				376
+lf09	Hangschutt	Hangschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				193
+lf10	Hangschutt	Hangschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				193
+na01	Kolluvium	Kolluvium		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				200
+na02	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde				574
+na03	Hangschutt	Hangschutt		Pararendsina-Pelosol	SUBSTRATBÖDEN	Textur-Substratboden	Textur-Substratboden	Pararendzina			193
+na04	silikatisches Festgestein	Rhyolithe		Kolluvisol carbonatfrei	UMGELAGERTE BÖDEN	Kolluvisol	Carbonatfreier Kolluvisol				574
+na05	silikatisches Festgestein	Rhyolithe		Kalkbraunlehm (Terra fusca relikt.)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm	relikter			574
+nb01	karbonatisches Festgestein	Kalke		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				372
+nb02	karbonatisches Festgestein	Kalke		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			372
+nb03	karbonatisches Festgestein	Kalke		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				372
+nb04	karbonatisches Festgestein	Kalke		Pararendsina-Pelosol	SUBSTRATBÖDEN	Textur-Substratboden	Textur-Substratboden	Pararendzina			372
+nb05	karbonatisches Festgestein	Kalke		Pararendsina-Pelosol	SUBSTRATBÖDEN	Textur-Substratboden	Textur-Substratboden	Pararendzina			372
+nb06	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				364
+nf01	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+nf02	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				193
+nf03	Hangschutt	Hangschutt		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			193
+nf06	Hangschutt	Hangschutt		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				193
+pa01	Rutschmasse	Rutschmasse		Braunerden auf Festgesteinen	BRAUNERDEN	Braunerde	Typische Braunerde	auf Festgestein			811
+pa02	Rutschmasse	Rutschmasse		Braunerden auf Festgesteinen	BRAUNERDEN	Braunerde	Typische Braunerde	auf Festgestein			811
+pa05	silikatisches Festgestein	Rhyolithe		Braunerde podsolig	BRAUNERDEN	Braunerde	Podsolige Braunerde				614
+qa01	Eisrandsedimente	Eisrandsedimente		Pararendzina	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina				660
+qa02	Moorablagerung	Moor rezent		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde	basenreich			568
+qa03	Grundmoraene	Grundmoraene		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde	basenreich			576
+qa04	Grundmoraene	Grundmoraene		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde	basenreich			576
+qa06	Grundmoraene	Grundmoraene		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		576
+qa07	Grundmoraene	Grundmoraene		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			576
+qa08	Grundmoraene	Grundmoraene		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		576
+qa09	Grundmoraene	Grundmoraene		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		576
+qa10	Grundmoraene	Grundmoraene		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			576
+qa11	Grundmoraene	Grundmoraene		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			576
+qa12	Moraene undifferenziert	Moraene undifferenziert		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		191
+qa13	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			191
+qa14	silikatisches Festgestein	Rhyolithe		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			614
+qa15	silikatisches Festgestein	Rhyolithe		Braunerden auf Lockersedimenten	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment			614
+qa16	silikatisches Festgestein	Rhyolithe		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			614
+rc01	Blockschutt	Blockschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				362
+rc02	Hangschutt	Hangschutt		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			193
+v01	gemischte Kegel	gemischte Kegel		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				371
+v02	gemischte Kegel	gemischte Kegel		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				371
+v03	gemischte Kegel	gemischte Kegel		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				371
+v04	Hangschutt	Hangschutt		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				193
+v04a	Hangschutt	Hangschutt		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				193
+v05	gemischte Kegel	gemischte Kegel		Kalklehme (rezent)	KALKLEHME	Kalkbraunlehm	Kalkbraunlehm				371
+v07	Moraene undifferenziert	Moraene undifferenziert		Parabraunerde	BRAUNERDEN	Parabraunerde	Parabraunerde				191
+v08	karbonatisches Festgestein	Kalke		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				372
+v09	karbonatisches Festgestein	Kalke		Braunerde auf Lockersediment leicht	BRAUNERDEN	Braunerde	Typische Braunerde	auf Lockersediment	leicht		372
+v10	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+v12	Moraene undifferenziert	Moraene undifferenziert		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				191
+v13	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			191
+v14	Blockschutt	Blockschutt		Rendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Rendzina				362
+v15	Blockschutt	Blockschutt		Moderrendzina	TERRESTRISCHE HUMUSBÖDEN	Rendzina	Moder-Rendzina				362
+v17	Blockschutt	Blockschutt		Pararendzina	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina				362
+v18	gemischtes Sedimentgestein	Pelite, Siltite und Sandsteine		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				654
+v19	Blockschutt	Blockschutt		Kalklehm-Rendzina	TERRESTRISCHE HUMUSBÖDEN	Kalklehm-Rendzina	Kalklehm-Rendzina				362
+v20	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde podsolig	BRAUNERDEN	Braunerde	Podsolige Braunerde				364
+v22	silikatisches Sedimentgestein	Pelite, Siltite und Sandsteine		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				364
+v23	Hangschutt	Hangschutt		Grobmaterial-Rohboden carbonatfrei	TERRESTRISCHE ROHBÖDEN	Grobmaterial-Rohboden	Carbonatfreier Grobmaterial-Rohboden				193
+v24	Hangschutt	Hangschutt		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			193
+w01	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			614
+w02	Moraene undifferenziert	Moraene undifferenziert		Braunerde basenarm podsoliert	BRAUNERDEN	Braunerde	Podsolige Braunerde	basenarm			191
+w03	silikatisches Festgestein	Rhyolithe		Braunerde podsolig	BRAUNERDEN	Braunerde	Podsolige Braunerde				614
+w04	silikatisches Festgestein	Rhyolithe		Braunerde podsolig	BRAUNERDEN	Braunerde	Podsolige Braunerde				614
+w05	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			614
+w06	silikatisches Festgestein	Rhyolithe		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde	basenreich			614
+w07	Moraene undifferenziert	Moraene undifferenziert		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			191
+x01	silikatisches Festgestein	Rhyolithe		Braunerde (basenarm)	BRAUNERDEN	Braunerde	Typische Braunerde	basenarm			614
+x02	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+x03	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+x04	Moraene undifferenziert	Moraene undifferenziert		Pararendsina-Pelosol	SUBSTRATBÖDEN	Textur-Substratboden	Textur-Substratboden	Pararendzina			191
+x05	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+x07	Moraene undifferenziert	Moraene undifferenziert		Braunerde auf bindig-tonigem Material (Pelosol)	BRAUNERDEN	Braunerde	Braunerde – tonig				191
+x08	Moraene undifferenziert	Moraene undifferenziert		Pararendsina verbraunt	TERRESTRISCHE HUMUSBÖDEN	Pararendzina	Pararendzina	verbraunt			191
+x10	Moraene undifferenziert	Moraene undifferenziert		Braunerde carbonathaltig	BRAUNERDEN	Braunerde	Carbonathaltige Braunerde				191
+x12	karbonatisches Festgestein	Kalke		Braunerde basenreich	BRAUNERDEN	Braunerde	Typische Braunerde	basenreich			372
