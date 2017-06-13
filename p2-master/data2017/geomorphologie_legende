@@ -1,0 +1,23 @@
+geomorphologie	geomorph	geomorphologieklasse_kurz
+Alluviale Ablagerung	1	AA
+Alluvialer Schwemmfaecher	2	AS
+Anthropogen	3	AN
+Ausschmelzmoraene	4	AM
+Blockschutt	5	BS
+Eisrandsedimente	6	ES
+Glaziolakustrine Ablagerung	7	GlA
+Grundmoraene	8	GM
+Hangschutt	9	HS
+Kolluvium	10	Ko
+Lakustrine Ablagerung	11	LA
+Moorablagerung	12	MA
+Moraene undifferenziert	13	MU
+Rutschmasse	14	RU
+See	15	SEE
+Sturzschuttfaecher	16	SSF
+gemischte Ablagerung	17	GA
+gemischte Kegel	18	GK
+gemischtes Sedimentgestein	19	GS
+karbonatisches Festgestein	20	KF
+silikatisches Festgestein	21	SF
+silikatisches Sedimentgestein	22	SS

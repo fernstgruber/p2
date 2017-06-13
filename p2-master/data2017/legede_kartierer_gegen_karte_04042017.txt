@@ -1,0 +1,16 @@
+geomorphologieklasse	geomorphologieklasse_kurz	GKeng	GKEK
+Alluviale Ablagerung	AA	alluvial deposits	AD
+Kolluvium	Ko	colluvial deposits	CD
+karbonatisches Festgestein	KF	calcareous sedimentary rock	CSR
+gemischte Kegel	GK	debris cones	DC
+Glaziolakustrine Ablagerung	GlA	glaciolacustrine deposits	GD
+Eisrandsedimente	ES	ice-marginal sediments	IMS
+gemischtes Sedimentgestein	GS	intermediate sedimentary rock	ISR
+Moorablagerung	MA	mire deposits	MrD
+gemischte Ablagerung	GA	mixed deposits	MxD
+silikatisches Festgestein	SF	siliceous bedrock	SB
+Blockschutt	BS	Scree	SC
+Hangschutt	HS	slope debris	SD
+Grundmoraene	GM	sub-glacial till	SGT
+silikatisches Sedimentgestein	SS	silicious sedimentary rock	SSR
+Moraene undifferenziert	MU	till in general	TG
