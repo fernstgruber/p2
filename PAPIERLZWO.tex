@@ -41,7 +41,7 @@
 
 \begin{frontmatter}
 
-\title{Joint analysis of geological map units and topography to support soil survey - a case study from South Tyrol}
+\title{Joint analysis of geological map units and topography to support soil survey - lessons from a case study in South Tyrol}
 
 
 %% Group authors per affiliation:
@@ -72,13 +72,15 @@
 \paragraph{general introduction}
 Geologic maps have always been an important aid in soil survey as parent material is an important factor in soil formation \citep{Jenny1941}. The importance of this relationship is highlighted by the fact that, vice versa, soil maps have themselves been applied to support and improve geologic mapping \citep{Brevik2015}. 
 
-Hier vielleicth Juilleret und so für die wichtigkeit des ausgansgsmaterials.
+Geological maps at various scales have been used as an environmental variable in digital soil mapping (DSM), representing the soil forming factor parent material, or simply 'p', for instance in the 'scorpan' framework of inferring soil information \citep{McBratney2003}. How this important variable is classified, however, will vary greatly depending on the the available data, the soil classification sytem used, the specific mapping guidelines applied, and most importantly the particular geologic and geomorphologic setting of the investigated area. In its guidelines for soil description, the Food and Agriculture Organization of the United Nations \citep{FAO2006} 
+
+Hier vielleicth Juilleret und so für die wichtigkeit des ausgansgsmaterials. Herbst zitat??
 
 Situation in the Alps
 
-\paragraph{overview of literature with regard to the use of geologic maps in classic field soil survey and digital soil mapping in literature- what parent material classes are there in the classifications}
-\paragraph{literature overview with regard to terrain parameters for characterisation and soil survey, allgemeine geomorphmetry kurz zitiern}
-Researchers have long investigated ways to quantify the roughness or ruggedness of terrain, from the analysis of field data and topographic maps to computing roughness indices on raster grids. Geology, geomorphology as well as habitat modelling and wildlife management have been the main research areas in which such investigations were performed on land surfaces.  \cite{Hobson1972} presented three different roughness values and applied them to field measurements, correlating them to rock type. In another early study aimed at quantifying roughness, \cite{Beasom1983} presented the land surface ruggedness index, which is based on the total length of contour lines per area. Similarily analysing topographic maps, \cite{Nellemann1994} describe the calculation of a terrain ruggedness index based on the variability of contour lines along transects, which they correlate with caribou forage availability. Regarding field methods, they calculate microtopographic diversity by analysing the horizontal distance of a chain laid on the ground in their study plots. \cite{Riley1999} proposed the topographic ruggedness index (TRI), which compares the elevation of a central pixel to the elevations of cells within a given search window. In an attempt to decorrelate roughness from slope, \cite{Sappington2007} expanded on the work of \cite{Hobson1972} to introduce vector ruggedness measure (VRM), which is calculated based on the orientation of vectors normal to the surface in a given area. \citep{Grohmann2010} analysed several roughness measures at different resolutions and window sizes with regard to their ability to depict terrain features. They highlight the ability of VRM to detect fine-scale roughness features and attribute low roughness values to steep but smooth slopes, but also acknowledge its inability to delimit slope breaks and identify regional relief. The Melton ruggedness index, which relates  the elevation difference of a basin to the drainage area, was applied by \cite{Marchi2005} to investigate sediment transport, however compared to VRM  it is more of a measure of general relief than roughness. Similar to VRM, roughness measures based on eigenvalue ratios of an orientation matrix have long been used in geology to describe land surfaces, especially of bedrock. \cite{Coblentz2014} investigated the use of such measures ...
+
+
+A second, immensely important soil forming factor is topography or relief. It is considered in traditional soil survey, for instance by mapping landscape position and local slope and curvature \citep{FAO2006}, and also DSM, where the representing variables implemented in a given model can be chosen from a wide set of available parameters. Examples of such terrain parameters can be found, amongst others, in \cite{Boehner2009},\cite{Gallant2000} and \cite{Olaya2009141} . Regarding the geomorphometric characterisation of geologic or soil parent material units, a number of considerations have to be taken into account when choosing which parameter groups to investigate. While regional parameters well describe the, hydrologically relevant, relative position in the landscape, they, as well as absolute and relative height-related parameters, are strongly correlated to the underlying geological structure of a given region. Local parameters such as slope and curvature are often used to infer soil properties and give insight into local dynamics, but may also vary strongly within a map unit. To characterise parent material units, especially with regard to topographic, and as a result, soil, variability, an intermediate terrain parameter describing a units land surface is of particular interest. Researchers have long investigated ways to quantify the roughness or ruggedness of terrain, from the analysis of field data and topographic maps to computing roughness indices on raster grids. Geology, geomorphology as well as habitat modelling and wildlife management have been the main scientific research areas in which such investigations were performed on land surfaces.  \cite{Hobson1972} presented three different roughness values and applied them to field measurements, correlating them to rock type. In another early study aimed at quantifying roughness, \cite{Beasom1983} presented the land surface ruggedness index, which is based on the total length of contour lines per area. Similarily analysing topographic maps, \cite{Nellemann1994} describe the calculation of a terrain ruggedness index based on the variability of contour lines along transects, which they correlate with caribou forage availability. Regarding field methods, they calculate microtopographic diversity by analysing the horizontal distance of a chain laid on the ground in their study plots. \cite{Riley1999} proposed the topographic ruggedness index (TRI), which compares the elevation of a central pixel to the elevations of cells within a given search window. In an attempt to decorrelate roughness from slope, \cite{Sappington2007} expanded on the work of \cite{Hobson1972} to introduce vector ruggedness measure (VRM), which is calculated based on the orientation of vectors normal to the surface in a given area. \citep{Grohmann2010} analysed several roughness measures at different resolutions and window sizes with regard to their ability to depict terrain features. They highlight the ability of VRM to detect fine-scale roughness features and attribute low roughness values to steep but smooth slopes, but also acknowledge its inability to delimit slope breaks and identify regional relief. The Melton ruggedness index, which relates  the elevation difference of a basin to the drainage area, was applied by \cite{Marchi2005} to investigate sediment transport, however compared to VRM  it is more of a measure of general relief than roughness. Similar to VRM, roughness measures based on eigenvalue ratios of an orientation matrix have been used in geology to describe land surfaces, especially of bedrock. \cite{Coblentz2014} combined such a roughness measures with parameters representing the drainage network of the investigated geologic units  to create 
 
 \paragraph{overview of intention and aims}
 In a first step we analyse how well the geologic units of the high resolution geologic map correspond to the parent material identified by the soil surveyor, thus evaluating the performance and reliability of geologic maps to support soil survey in South Tyrol. This requires generalisation of the geologic units into surficial geology units (SGUs) that can be compared to the parent material units used in the soil (or forestry) surveys, called  The result is a confusion matrix that shows to which extent geologic units are in accordance with the parent material mapped by the surveyor.  We highlight those units that are often confused or show overlap, and which should consequently be surveyed with greater detail and in consideration of relevant topographic information.
@@ -110,24 +112,25 @@ As means for simplification of the analysis and data harmonisation, the geologic
   \hline
 SGU & Abbrev. & short description & \% area \\ 
   \hline
- \raisebox{-1.5ex}{alluvial deposits} & \raisebox{-1.5ex}{AD} & Holocene and Pleistocene deposits of silt, sand and gravels &\raisebox{-1.5ex}{10.6} \\ 
-\raisebox{-1.5ex}{coarse blocky debris} & \raisebox{-1.5ex}{CBD} & Holocene and Pleistocene blocky deposits of mass movements &\raisebox{-1.5ex}{2.1} \\  
-colluvial deposits & CD & footslope deposits &\raisebox{0ex}{2.8} \\
-calcareous sedimentary rock & \raisebox{-1.5ex}{CSR} & \raisebox{-1.5ex}{limestones and dolomites} &\raisebox{-1.5ex}{7.4} \\  
-\raisebox{-1.5ex}{debris cones} & \raisebox{-1.5ex}{DC} & Holocene conic deposits from debris flows and torrents &\raisebox{-1.5ex}{14.2} \\  
-glaciolacustrine deposits & GD & (fine) sand deposits with dropstones &\raisebox{-1.5ex}{2.8} \\  
-ice-marginal sediments & IMS & clast-supported gravels &\raisebox{0ex}{0.3} \\ 
-intermediate sedimentary rock & \raisebox{-1.5ex}{ISR} & \raisebox{-1.5ex}{silt- and sandstones} &\raisebox{-1.5ex}{2.8} \\  
-\raisebox{-1.5ex}{mire deposits} &\raisebox{-1.5ex}{MrD} & Holocene and Pleistocene silt and peat deposits&\raisebox{-1.5ex}{3.9} \\ 
-\raisebox{-1.5ex}{mixed deposits} & \raisebox{-1.5ex}{MxD} & Pleistocene deposits from debris flows, torrents and avalanches &\raisebox{-1.5ex}{3.2} \\  
-\raisebox{-1.5ex}{siliceous bedrock} & \raisebox{-1.5ex}{SB} & rhyolite and rhyodazite tuffs and ignimbrites &\raisebox{-1.5ex}{7.4} \\  
-\raisebox{-1.5ex}{slope debris} & \raisebox{-1.5ex}{SD} & Holocene and Pleistocene debris on slopes&\raisebox{-1.5ex}{11.4} \\  
-sub-glacial till & SGT & compacted sub-glacial sediment &\raisebox{0ex}{18.7} \\  
+ \raisebox{-1.5ex}{alluvial deposits} & \raisebox{-1.5ex}{AD} & Holocene and Pleistocene deposits of silt, sand and gravels &\raisebox{-1.5ex}{14.9} \\ 
+\raisebox{-1.5ex}{coarse blocky debris} & \raisebox{-1.5ex}{CBD} & Holocene and Pleistocene blocky deposits of mass movements &\raisebox{-1.5ex}{1.8} \\  
+colluvial deposits & CD & footslope deposits &\raisebox{0ex}{2.4} \\
+calcareous sedimentary rock & \raisebox{-1.5ex}{CSR} & \raisebox{-1.5ex}{limestones and dolomites} &\raisebox{-1.5ex}{8.4} \\  
+\raisebox{-1.5ex}{debris cones} & \raisebox{-1.5ex}{DC} & Holocene conic deposits from debris flows and torrents &\raisebox{-1.5ex}{12.7} \\  
+glaciolacustrine deposits & GLD & (fine) sand deposits with dropstones &\raisebox{-0ex}{2.5} \\  
+ice-marginal sediments & IMS & clast-supported gravels &\raisebox{0ex}{0.2} \\ 
+intermediate sedimentary rock & \raisebox{-1.5ex}{ISR} & \raisebox{-1.5ex}{silt- and sandstones} &\raisebox{-1.5ex}{0.2} \\  
+landslide deposits & \raisebox{-0ex}{LD} & \raisebox{-0ex}{large landslide deposits} &\raisebox{-0ex}{1.2} \\ 
+lodgement till & LT & compacted sub-glacial sediment &\raisebox{0ex}{15.8} \\  
 \raisebox{-0ex}{siliceous sedimentary rock} & \raisebox{-0ex}{SSR} & sandstones and siltstones &\raisebox{0ex}{1.1} \\ 
-till in general & TG & undifferentiated glacial sediment &\raisebox{0ex}{11.3} \\  
+\raisebox{-1.5ex}{mire deposits} &\raisebox{-1.5ex}{MrD} & Holocene and Pleistocene silt and peat deposits&\raisebox{-1.5ex}{3.3} \\ 
+\raisebox{-1.5ex}{mixed deposits} & \raisebox{-1.5ex}{MxD} & Pleistocene deposits from debris flows, torrents and avalanches &\raisebox{-1.5ex}{2.1} \\  
+\raisebox{-1.5ex}{siliceous bedrock} & \raisebox{-1.5ex}{SB} & rhyolite and rhyodazite tuffs and ignimbrites &\raisebox{-1.5ex}{13.0} \\  
+\raisebox{-1.5ex}{slope debris} & \raisebox{-1.5ex}{SD} & Holocene and Pleistocene debris on slopes&\raisebox{-1.5ex}{10.3} \\  
+till in general & TG & undifferentiated glacial sediment &\raisebox{0ex}{10.1} \\  
    \hline
 \end{tabular}
-\caption{Table of the generalised parent material geounits with abbreviations and short description. Additionally, the proportion of the study area covered by each geounit is given.} 
+\caption{Table of the generalised parent material geounits with abbreviations and short description. Additionally, the proportion of the study area covered by each geounit is given. Anthropogene deposits and water bodies are not included in the analysis.} 
 \label{table:geounits}
 \end{table}
 
