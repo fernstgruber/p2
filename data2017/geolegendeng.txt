@@ -10,7 +10,7 @@
 "ice-marginal sediments"	"IMS"	"clast-supported gravels"	"Eisrandsedimente"	6
 "intermediate sedimentary rock"	"ISR"	"silt- and sandstones"	"gemischtes Sedimentgestein"	19
 "landslide deposits"	"LD"	"landslide deposits"	"Rutschmasse"	14
-"lodgement till"	"LT"	"compacted sub-glacial sediment"	"Grundmoraene"	8
+"till in general"	"TG"	"undifferentiated glacial sediment"	"Moraene undifferenziert"	8
 "mire deposits"	"MrD"	"Holocene and Pleistocene silt and peat deposits"	"Moorablagerung"	12
 "mixed deposits"	"MxD"	"Pleistocene deposits from debris flows and gulleys"	"gemischte Ablagerung"	17
 "siliceous bedrock"	"SB"	"rhyolite and rhyodazite tuffs and ignimbrites"	"silikatisches Festgestein"	21
